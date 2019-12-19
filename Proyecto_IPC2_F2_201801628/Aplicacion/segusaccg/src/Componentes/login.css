@@ -1,0 +1,16 @@
+.cont {
+    border-radius: 10%;
+    padding: 3px;
+    display: flex;
+    width: 300px;
+    height: 300px;
+    top: 22%;
+    left: 40%;
+    position: absolute;
+    background-color: #09d3ac;
+}
+
+.cent {
+    alignment: center;
+    padding: 10px;
+}
