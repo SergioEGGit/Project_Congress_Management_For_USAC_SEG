@@ -4,20 +4,22 @@ const _ = require('underscore');
 
 const usuarios = require('../../DB/usuarios.json');
 
+
+
+
 router.get('/', (req, res) => {
     res.json(usuarios);
 });
 
-router.get('/:id', (req, res) => {
-   const {id} = req.params;
-   var {nombre} = "";
-   var pass = "";
+router.get('/:us', (req, res) => {
+   const { us } = req.params;
+   var {json} = "";
    _.each(usuarios, (usuario, i) => {
-        if(usuario.id === id) {
-           pass = r
+        if(usuario.us === us) {
+            json = usuario;
         }
    });
-    res.json(nombre + "" + pass);
+    res.json(json);
 });
 
 router.post('/', (req, res) => {

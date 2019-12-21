@@ -1,16 +1,92 @@
-.cont {
-    border-radius: 10%;
-    padding: 3px;
-    display: flex;
-    width: 300px;
-    height: 300px;
-    top: 22%;
-    left: 40%;
+#textfieldu {
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+    font-size: 16px;
+    font-style: oblique;
+    color: #1355CA;
+    text-decoration: overline;
     position: absolute;
-    background-color: #09d3ac;
+    left: 697px;
+    top: 268px;
+    width: 189px;
+}
+#textfieldp {
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+    font-size: 16px;
+    font-style: oblique;
+    color: #1355CA;
+    text-decoration: overline;
+    position: absolute;
+    left: 698px;
+    top: 335px;
+    width: 191px;
+}
+#labelu	{
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+    font-size: 20px;
+    font-style: oblique;
+    color: aliceblue;
+    position: absolute;
+    left: 570px;
+    top: 265px;
+    height: 22px;
+}
+#labelp	{
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+    font-size: 20px;
+    font-style: oblique;
+    color: aliceblue;
+    position: absolute;
+    left: 573px;
+    top: 333px;
+    height: 22px;
+}
+#labeli	{
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+    font-size: 30px;
+    font-style: oblique;
+    color: navy;
+    position: absolute;
+    left: 676px;
+    top: 192px;
+    height: 22px;
 }
 
-.cent {
-    alignment: center;
-    padding: 10px;
+#cont {
+    background-image: url("../Assets/fondo.jpg");
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    height: 625px;
+    width: 1360px;
 }
+#logo {
+    position: absolute;
+    left: 676px;
+    top: 87px;
+    border-radius: 70%;
+}
+#buttoni {
+    position: absolute;
+    border-radius: 15px;
+    color: aliceblue;
+    background: #970033;
+    font-size: 20px;
+    left: 597px;
+    top: 426px;
+    border: hidden;
+    width: 121px;
+    height: 37px;
+}
+#buttonr {
+    position: absolute;
+    border-radius: 15px;
+    color: aliceblue;
+    background: #970033;
+    font-size: 20px;
+    left: 751px;
+    top: 425px;
+    border: hidden;
+    width: 121px;
+    height: 37px;
+}
+

@@ -3,12 +3,12 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import Login from './Componentes/login';
-import Home from './Componentes/home';
 import * as serviceWorker from './serviceWorker';
-import {Router, Route ,BrowserRouter, Link} from "react-router-dom";
-import SideNav, { Toggle, Nav, NavItem, NavIcon, NavText } from '@trendmicro/react-sidenav';
+import {Route ,BrowserRouter} from "react-router-dom";
+import SideNav, {NavItem, NavIcon, NavText } from '@trendmicro/react-sidenav';
 import '@trendmicro/react-sidenav/dist/react-sidenav.css';
 import { FiLogIn } from 'react-icons/fi';
+import { TiHomeOutline } from 'react-icons/ti';
 
 
 
@@ -28,18 +28,18 @@ const routs = (
         <SideNav.Toggle />
         <SideNav.Nav defaultSelected="home">
             <NavItem eventKey="home">
-                <NavIcon>
-                    <FiLogIn />
+                <NavIcon id="icon">
+                    <TiHomeOutline />
                 </NavIcon>
-                <NavText>
+                <NavText id="tex">
                     Home
                 </NavText>
             </NavItem>
             <NavItem eventKey="login">
                 <NavIcon>
-                    <i className="fa fa-fw fa-line-chart" style={{ fontSize: '1.75em' }} />
+                    <FiLogIn id="icon"/>
                 </NavIcon>
-                <NavText>
+                <NavText id="tex">
                     Login
                 </NavText>
             </NavItem>

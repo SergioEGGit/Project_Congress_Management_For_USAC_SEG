@@ -1,14 +1,49 @@
 import React, {Component} from 'react';
 import './home.css';
-
+import axios from 'axios';
 
 class home extends Component {
 
-   render() {
+    constructor(props) {
+        super(props);
+
+        this.state = {
+            usuarios: []
+        }
+
+    }
+
+    componentDidMount()
+        {
+            axios.get('http://localhost:4000/api/usuarios')
+                .then(response => {
+                    console.log(response);
+                    this.setState({usuarios: response.data})
+                })
+                .catch(error => {
+                    console.log(error)
+                })
+        }
+
+
+
+    render() {
+        const { usuarios } = this.state;
+        var i = 0;
         return (
+
             <div className="cont">
-                Hola
-                <button>Login</button>
+
+                List of usuarios
+                {
+
+                    usuarios.length ?
+                        usuarios.map(
+                            usuario =>
+                                <div key={usuario.id}>{usuario.us}</div>
+                        ) :
+                        null
+                }
             </div>
         );
     }
