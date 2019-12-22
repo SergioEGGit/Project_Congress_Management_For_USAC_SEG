@@ -5,6 +5,10 @@ import axios from "axios";
 import Variables from './variables';
 
 
+
+
+
+
 class login extends Component {
 
     constructor(props) {
@@ -41,15 +45,37 @@ class login extends Component {
     }
 
     handleSubmit(event) {
+
         const  { usuarios }  = this.state;
         const user = this.state.user;
         const pass = this.state.pass;
         if(usuarios.us === user) {
             if(usuarios.pass === pass) {
-                Variables.G_Usuario = usuarios.us;
                 Variables.G_Id = usuarios.id;
+                Variables.G_Usuario = usuarios.us;
                 Variables.G_Tipo = usuarios.tipo;
-                alert("Bienvenido " + Variables.G_Usuario);
+                alert("Bienvendio ");
+                if(usuarios.tipo === "Administrador") {
+                     Variables.P_Login = true;
+                     Variables.P_Home = false;
+                     Variables.P_Registrous = false;
+                }
+                if(usuarios.tipo === "Colaborador") {
+                    Variables.P_Login = true;
+                    Variables.P_Home = false;
+                    Variables.P_Registrous = true;
+                }
+                if(usuarios.tipo === "Catedratico") {
+                    Variables.P_Login = true;
+                    Variables.P_Home = false;
+                    Variables.P_Registrous = true;
+                }
+                if(usuarios.tipo === "Estudiante") {
+                    Variables.P_Login = true;
+                    Variables.P_Home = false;
+                    Variables.P_Registrous = true;
+                }
+                window.location.assign('http://localhost:3000/home');
                 this.clearData();
             } else {
                 alert("Su Contraseña Es Incorrecta");
@@ -62,21 +88,18 @@ class login extends Component {
         event.preventDefault();
     }
 
-
-
-
-
     render() {
         return (
            <div className="cont" id="cont">
-               <img src={Logo} alt="" width="96" height="100" id="logo"/>
-               <label id="labeli" name="labeli">Ingreso</label>
-               <label id="labelu" name="labelu">Usuario:</label>
-               <input name="textfieldu" type="text" required="required" id="textfieldu"  value={this.state.user} onChange={this.handleOnchangeU} placeholder="Usuario"/>
-               <label id="labelp" name="labelp">Contraseña:</label>
-               <input name="textfieldp" type="password" required="required" id="textfieldp" value={this.state.pass} onChange={this.handleOnchangeP} placeholder="Contraseña"/>
-               <input name="buttoni" type="button" id="buttoni" onClick={this.handleSubmit} value="Ingresar "/>
-               <input type="button" name="buttonr" id="buttonr" value="Registrarse"/>
+               <img src={Logo} alt="" width="96" height="100" id="log"/>
+               <label id="lri" name="lri">Ingreso</label>
+               <label id="lru" name="lru">Usuario:</label>
+               <input name="inu" type="text" required="required" id="inu"  value={this.state.user} onChange={this.handleOnchangeU} placeholder="Usuario"/>
+               <label id="lrc" name="lrc">Contraseña:</label>
+               <input name="bri" type="button" id="bri" onClick={this.handleSubmit} value="Ingresar "/>
+               <input type="button" name="brr" id="brr" value="Registrarse"/>
+               <input name="inp" type="password" required="required" id="inp" value={this.state.pass} onChange={this.handleOnchangeP} placeholder="Contraseña"/>
+
            </div>
         );
     }

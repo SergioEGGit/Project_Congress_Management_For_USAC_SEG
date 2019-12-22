@@ -1,6 +1,10 @@
 const { Router } = require('express');
 const router = Router();
 const _ = require('underscore');
+const bodyParser = require('body-parser');
+
+var jsonParser = bodyParser.json();
+var urlencodedParser = bodyParser.urlencoded({ extended: false });
 
 const usuarios = require('../../DB/usuarios.json');
 
@@ -24,24 +28,33 @@ router.get('/:us', (req, res) => {
 
 router.post('/', (req, res) => {
     const id = usuarios.length + 1;
-    const { nombre, pass } = req.body;
-    const newUser = {id, ...req.body};
-    if (id && nombre && pass) {
+    const { identificacion , nombre, fechan, telefono, email, universidad, nacionalidad, us, pass, puesto, tipo } = req.body;
+    const newUser = { id, ...req.body };
+    if(id && identificacion && us && pass) {
         usuarios.push(newUser);
         res.json(usuarios);
     } else {
-        res.status(500).json({error: 'There was an error.'});
+        res.status(500).json({error: 'Hubo Algun Error'});
     }
 });
 
 router.put('/:id', (req, res) => {
     const { id } = req.params;
-    const { nombre, pass } = req.body;
-    if (id && nombre && pass) {
+    const { identificacion, nombre, fechan, telefono, email, universidad, nacionalidad, us, pass, puesto, tipo } = req.body;
+    if (id && identificacion && us && pass) {
         _.each(usuarios, (usuario, i) => {
             if (usuario.id === id) {
+                usuario.identificacion = identificacion;
                 usuario.nombre = nombre;
+                usuario.fechan = fechan;
+                usuario.telefono = telefono;
+                usuario.email = email
+                usuario.universidad = universidad;
+                usuario.nacionalidad = nacionalidad;
+                usuario.us = us;
                 usuario.pass = pass;
+                usuario.puesto = puesto;
+                usuario.tipo = tipo;
             }
         });
         res.json(usuarios);
