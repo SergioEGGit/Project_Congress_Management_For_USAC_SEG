@@ -1,0 +1,21 @@
+[
+  {
+    "id": "1",
+    "id_miembro": "",
+    "tipo_miembro": "",
+    "nombre_miembro": "",
+    "universidad_miembro": "",
+    "P_Login": false,
+    "P_Logout": true,
+    "P_RegistroU": true,
+    "P_RegistroP": true,
+    "P_RegistroCu": true,
+    "P_RegistroCo": true,
+    "P_RegistroA": true,
+    "P_Cargamasiva": true,
+    "P_Perfil": true,
+    "P_Inventario": true,
+    "P_AsignacionCo": true,
+    "P_AsignacionCu": true
+  }
+]

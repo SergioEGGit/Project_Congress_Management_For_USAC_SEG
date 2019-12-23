@@ -9,8 +9,6 @@ var urlencodedParser = bodyParser.urlencoded({ extended: false });
 const usuarios = require('../../DB/usuarios.json');
 
 
-
-
 router.get('/', (req, res) => {
     res.json(usuarios);
 });
@@ -26,13 +24,26 @@ router.get('/:us', (req, res) => {
     res.json(json);
 });
 
+router.get('/one/:id', (req, res) => {
+    const { id } = req.params;
+    var {json} = "";
+    _.each(usuarios, (usuario, i) => {
+        if(usuario.id === id) {
+            json = usuario;
+        }
+    });
+    res.json(json);
+});
+
 router.post('/', (req, res) => {
-    const id = usuarios.length + 1;
+    const idnumb =  usuarios.length + 1;
+    const id = "" + idnumb;
     const { identificacion , nombre, fechan, telefono, email, universidad, nacionalidad, us, pass, puesto, tipo } = req.body;
     const newUser = { id, ...req.body };
     if(id && identificacion && us && pass) {
         usuarios.push(newUser);
         res.json(usuarios);
+
     } else {
         res.status(500).json({error: 'Hubo Algun Error'});
     }
@@ -41,7 +52,7 @@ router.post('/', (req, res) => {
 router.put('/:id', (req, res) => {
     const { id } = req.params;
     const { identificacion, nombre, fechan, telefono, email, universidad, nacionalidad, us, pass, puesto, tipo } = req.body;
-    if (id && identificacion && us && pass) {
+    if (id && us && pass) {
         _.each(usuarios, (usuario, i) => {
             if (usuario.id === id) {
                 usuario.identificacion = identificacion;

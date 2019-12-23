@@ -1,0 +1,26 @@
+#cgm {
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+    font-size: 30px;
+    font-style: oblique;
+    color: #fff6f8;
+    position: absolute;
+    left: 580px;
+    top: 101px;
+    height: 22px;
+    text-shadow: 0 0 0.2em #0013ff, 0 0 0.2em #0013ff
+}
+#logocgm{
+    position: absolute;
+    left: 622px;
+    top: 18px;
+    border-radius: 70%;
+    width: 76px;
+    height: 67px;
+}
+#cont {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    height: 582px;
+    width: 1177px;
+}

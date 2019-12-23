@@ -1,0 +1,26 @@
+[
+  {
+    "id": "1",
+    "codigo": "203",
+    "nombre": "IPC",
+    "seccion": "B",
+    "universidad": "Usac",
+    "titular": "Julio"
+  },
+  {
+    "id": "2",
+    "codigo": "203",
+    "nombre": "IPC",
+    "seccion": "A",
+    "universidad": "Usac",
+    "titular": "Julio"
+  },
+  {
+    "id": "3",
+    "codigo": "203",
+    "nombre": "IPC",
+    "seccion": "C",
+    "universidad": "Mariano",
+    "titular": "Julio"
+  }
+]

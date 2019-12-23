@@ -1,0 +1,12 @@
+[
+  {
+    "id": "1",
+    "codigo": "001",
+    "nombre": "Vasos",
+    "descripcion": "son vasos",
+    "cantidad": "20",
+    "encargado": "juan",
+    "ubicacion": "bodega",
+    "estado": "si"
+  }
+]

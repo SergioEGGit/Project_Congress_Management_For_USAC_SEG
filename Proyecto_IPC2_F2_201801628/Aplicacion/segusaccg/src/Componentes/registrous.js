@@ -20,7 +20,8 @@ class registrous extends Component {
             pass: "",
             puesto: "",
             tipo: ""
-        }
+        };
+        this.clearData = this.clearData.bind(this);
 
     }
     changeHandler = (e) => {
@@ -37,13 +38,31 @@ class registrous extends Component {
             .catch(error => {
                 console.log(error.response)
             })
+        this.clearData();
     };
 
     gestionar() {
         window.location.assign('http://localhost:3000/gestionarus');
     }
 
-
+    clearData(){
+        this.setState(
+            {
+                id: "",
+                identificacion: "",
+                nombre: "",
+                fechan: "",
+                telefono: "",
+                email: "",
+                universidad: "",
+                nacionalidad: "",
+                us: "",
+                pass: "",
+                puesto: "",
+                tipo: ""
+            }
+        );
+    }
 
     render() {
         const {identificacion, nombre, fechan, telefono, email, universidad, nacionalidad, us , pass, puesto ,tipo } = this.state;

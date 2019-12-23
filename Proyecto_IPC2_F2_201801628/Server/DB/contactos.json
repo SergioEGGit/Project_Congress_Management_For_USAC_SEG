@@ -1,0 +1,12 @@
+[
+  {
+    "id": "1",
+    "nombre": "coca cola",
+    "telefono": "56789845",
+    "email": "cocacola@coca.cola",
+    "direccion": "15 ave. 16-47 zona 7",
+    "rol": "patrocinador",
+    "oportunidades": "campaña publicitaria",
+    "encargado": "juan"
+  }
+]
