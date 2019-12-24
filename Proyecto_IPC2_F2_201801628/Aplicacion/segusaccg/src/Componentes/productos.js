@@ -90,6 +90,7 @@ class productos extends Component {
 
             <div className="cont">
                 <img src={Logo} width="96" height="100" alt="" id="lop"/>
+                <label id="lcap" name="labeli">Usuarios</label>
                 <label id="pi" name="labeli">Productos</label>
                 <label id="plco" name="labelu">Codigo:</label>
                 <input name="codigo" type="number" required="required" id="pico" placeholder="Código" onChange={this.changeHandler} value={codigo}/>
@@ -117,7 +118,7 @@ class productos extends Component {
 
 
 
-                <div id="tab">
+                <div id="tablep">
                     <Table id="table" striped bordered hover size="sm" variant="dark">
                         <thead>
                         <tr>

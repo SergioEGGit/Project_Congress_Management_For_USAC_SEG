@@ -15,6 +15,7 @@ class asignarcursoses extends Component {
         this.state = {
             cursos: [],
             cursos1: [],
+            variables: [],
             codigo: "",
             nombre: "",
             seccion: "",
@@ -28,17 +29,27 @@ class asignarcursoses extends Component {
         this.tablaclick = this.tablaclick.bind(this);
     }
 
-    componentDidMount()
-    {
-      axios.get('http://localhost:4000/api/cursos')
+    componentDidMount() {
+        axios.get('http://localhost:4000/api/variables/1')
             .then(response => {
-                const arreglo = response.data.filter(d => d.universidad === 'Usac');
-                console.log(arreglo);
-                this.setState({cursos: arreglo})
+                console.log(response);
+                this.setState({variables: response.data});
+                const {variables} = this.state;
+                axios.get('http://localhost:4000/api/cursos')
+                    .then(response => {
+                        const arreglo = response.data.filter(d => d.universidad === variables.universidad_miembro);
+                        console.log(arreglo);
+                        this.setState({cursos: arreglo})
+                    })
+                    .catch(error => {
+                        console.log(error)
+                    })
+
             })
             .catch(error => {
                 console.log(error)
             })
+
     }
 
     tablaclick(event){
@@ -75,13 +86,15 @@ class asignarcursoses extends Component {
         e.preventDefault();
         console.log(this.state);
         const   us  = this.state.cursos1;
+        const {variables} = this.state;
         axios.post('http://localhost:4000/api/asignacioncurso', {
-            estudiante: "juan",
+            estudiante: variables.nombre_miembro,
             curso: us.nombre,
             secciona: us.seccion,
         })
             .then(response => {
-                console.log(response)
+                console.log(response);
+                alert('Asignación Realizada Con Exito');
             })
             .catch(error => {
                 console.log(error.response)

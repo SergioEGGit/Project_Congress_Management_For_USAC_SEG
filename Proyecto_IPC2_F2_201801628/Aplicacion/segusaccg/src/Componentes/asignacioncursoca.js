@@ -6,7 +6,7 @@ import Logo from "../Assets/login.jpg";
 const $ = require("jquery");
 
 
-class cursosges extends Component {
+class asignacioncursoca extends Component {
 
 
     constructor(props) {
@@ -16,6 +16,7 @@ class cursosges extends Component {
         this.state = {
             cursos: [],
             cursos1: [],
+            variables: [],
             id: "",
             codigo: "",
             nombre: "",
@@ -26,7 +27,6 @@ class cursosges extends Component {
         };
         this.tablaclick = this.tablaclick.bind(this);
         this.clearData = this.clearData.bind(this);
-        this.submitAsignar = this.submitAsignar.bind(this);
 
     }
 
@@ -38,8 +38,7 @@ class cursosges extends Component {
                 nombre: "",
                 seccion: "",
                 universidad:"",
-                titular: "",
-                peticion: ""
+                titular: ""
             }
         );
     }
@@ -47,16 +46,25 @@ class cursosges extends Component {
 
     componentDidMount()
     {
-        axios.get('http://localhost:4000/api/cursos')
+        axios.get('http://localhost:4000/api/variables/1')
             .then(response => {
                 console.log(response);
-                this.setState({cursos: response.data})
+                this.setState({variables: response.data})
+                const {variables } = this.state;
+                axios.get('http://localhost:4000/api/cursos')
+                    .then(response => {
+                        console.log(response);
+                        const arreglo = response.data.filter(d => d.peticion === "aprobada" && d.universidad === variables.universidad_miembro);
+                        this.setState({cursos: arreglo})
+                    })
+                    .catch(error => {
+                        console.log(error)
+                    })
+
             })
             .catch(error => {
                 console.log(error)
-            });
-
-
+            })
     }
 
     tablaclick(event){
@@ -82,8 +90,7 @@ class cursosges extends Component {
                     nombre: us.nombre,
                     seccion: us.seccion,
                     universidad: us.universidad,
-                    titular: us.titular,
-                    peticion: us.peticion
+                    titular: us.titular
                 });
         });
 
@@ -98,13 +105,15 @@ class cursosges extends Component {
     submitModificar = e => {
         e.preventDefault();
         console.log(this.state);
+        const {variables} = this.state;
         axios.put(`http://localhost:4000/api/cursos/${this.state.id}`, this.state)
             .then(response => {
                 console.log(response);
                 axios.get('http://localhost:4000/api/cursos')
                     .then(response => {
                         console.log(response);
-                        this.setState({cursos: response.data})
+                        const arreglo = response.data.filter(d => d.peticion === "aprobada" && d.universidad === variables.universidad_miembro);
+                        this.setState({cursos: arreglo})
                     })
                     .catch(error => {
                         console.log(error)
@@ -117,41 +126,59 @@ class cursosges extends Component {
 
     };
 
-    submitAsignar = e => {
+    submitHandler = e => {
         e.preventDefault();
-        const us = this.state.cursos1;
-        us.peticion = "aprobada";
-        axios.put(`http://localhost:4000/api/cursos/${this.state.id}`, us)
+        console.log(this.state.codigo);
+        const {variables} = this.state;
+        axios.post('http://localhost:4000/api/cursos', {
+            codigo: this.state.codigo,
+            nombre: this.state.nombre,
+            seccion: this.state.seccion,
+            universidad:this.state.universidad,
+            titular: this.state.titular,
+            peticion: "pendiente"
+        })
             .then(response => {
                 console.log(response);
+
                 axios.get('http://localhost:4000/api/cursos')
                     .then(response => {
-                        //console.log(response);
-                        this.setState({cursos: response.data})
+                        console.log(response);
+                        const arreglo = response.data.filter(d => d.peticion === "aprobada" && d.universidad === variables.universidad_miembro);
+                        this.setState({cursos: arreglo})
                     })
                     .catch(error => {
                         console.log(error)
-                    })
+                    });
+                alert('Se Ha Enviado Su Petición Al Administrador');
             })
             .catch(error => {
                 console.log(error.response)
             });
         this.clearData();
-
     };
 
 
     submitEliminar = e => {
         e.preventDefault();
         console.log(this.state);
-        axios.delete(`http://localhost:4000/api/cursos/${this.state.id}`)
+        const {variables} = this.state;
+        axios.put(`http://localhost:4000/api/cursos/${this.state.id}`, {
+            id: this.state.id,
+            codigo: this.state.codigo,
+            nombre: this.state.nombre,
+            seccion: this.state.seccion,
+            universidad: this.state.universidad,
+            titular: "",
+            peticion: this.state.peticion
+        })
             .then(response => {
                 console.log(response);
                 axios.get('http://localhost:4000/api/cursos')
                     .then(response => {
                         console.log(response);
-                        this.setState({cursos: response.data
-                        })
+                        const arreglo = response.data.filter(d => d.peticion === "aprobada" && d.universidad === variables.universidad_miembro);
+                        this.setState({cursos: arreglo})
                     })
                     .catch(error => {
                         console.log(error)
@@ -161,7 +188,6 @@ class cursosges extends Component {
                 console.log(error.response)
             });
         this.clearData();
-
     };
 
 
@@ -185,9 +211,9 @@ class cursosges extends Component {
                 <input name="titular" type="text" required="required" id="ciu" placeholder="Titular" onChange={this.changeHandler}  value={titular}/>
                 <label id="clt" name="labelp">Titular:</label>
                 <input name="universidad" type="text" required="required" id="cit" placeholder="Universidad" onChange={this.changeHandler} value={universidad}/>
-                <input name="buttoni" type="button" id="cbc" onClick={this.submitModificar} value="Modificar"/>
-                <input name="buttonr" type="button" id="cbg" onClick={this.submitEliminar} value="Eliminar"/>
-                <input name="buttonr" type="button" id="cbp" onClick={this.submitAsignar} value="Aceptar Petición"/>
+                <input name="buttoni" type="button" id="cbc" onClick={this.submitModificar} value="Asignar"/>
+                <input name="buttonr" type="button" id="cbg" onClick={this.submitEliminar} value="Desasignar"/>
+                <input name="buttonr" type="button" id="cbp" onClick={this.submitHandler} value="Petición Curso"/>
 
                 <div id="tablep">
                     <Table id="table" striped bordered hover size="sm" variant="dark">
@@ -199,7 +225,6 @@ class cursosges extends Component {
                             <th width="60">Sección</th>
                             <th width="60">Universidad</th>
                             <th width="60">Titular</th>
-                            <th width="60">Petición Creación</th>
                         </tr>
                         </thead>
                         <tbody>
@@ -214,7 +239,6 @@ class cursosges extends Component {
                                             <td>{curso.seccion}</td>
                                             <td>{curso.universidad}</td>
                                             <td>{curso.titular}</td>
-                                            <td>{curso.peticion}</td>
                                         </tr>
                                 ) :
                                 null
@@ -234,4 +258,4 @@ class cursosges extends Component {
 }
 
 
-export default  cursosges;
+export default  asignacioncursoca;

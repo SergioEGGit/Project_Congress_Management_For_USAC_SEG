@@ -8,7 +8,6 @@ var urlencodedParser = bodyParser.urlencoded({ extended: false });
 
 const usuarios = require('../../DB/usuarios.json');
 
-
 router.get('/', (req, res) => {
     res.json(usuarios);
 });

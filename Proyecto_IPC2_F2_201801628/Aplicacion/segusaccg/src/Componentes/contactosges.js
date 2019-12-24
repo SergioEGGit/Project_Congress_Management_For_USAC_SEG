@@ -149,6 +149,7 @@ class contactosges extends Component {
             <div className="cont">
                 <img src={Logo} width="96" height="100" alt="" id="loc"/>
                 <label id="ci" name="labeli">Contactos</label>
+                <label id="lcap" name="labeli">Lista De Contactos</label>
                 <label id="cn" name="labelp">Nombre:</label>
                 <input name="nombre" type="text" required="required" id="cni" placeholder="Nombre" onChange={this.changeHandler} value={nombre}/>
                 <label id="ct" name="labelp">Teléfono:</label>
@@ -163,11 +164,11 @@ class contactosges extends Component {
                 <textarea id="cio" name="oportunidades" type="text"  placeholder="Oportunidades" onChange={this.changeHandler} value={oportunidades}/>
                 <label id="cen" name="labelp">Encargado:</label>
                 <input name="encargado" type="text" required="required" id="ceni" placeholder="Encargado" onChange={this.changeHandler} value={encargado}/>
-                <input name="buttoni" type="button" id="cbc" onClick={this.submitModificar} value="Modificar"/>
-                <input name="buttonr" type="button" id="cbg" onClick={this.submitEliminar} value="Eliminar"/>
+                <input name="buttoni" type="button" id="cobc" onClick={this.submitModificar} value="Modificar"/>
+                <input name="buttonr" type="button" id="cobg" onClick={this.submitEliminar} value="Eliminar"/>
 
 
-                <div id="cotab">
+                <div id="tablep">
                     <Table id="table" striped bordered hover size="sm" variant="dark">
                         <thead>
                         <tr>

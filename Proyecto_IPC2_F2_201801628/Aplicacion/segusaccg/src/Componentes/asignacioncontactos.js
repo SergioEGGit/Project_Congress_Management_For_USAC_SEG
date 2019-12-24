@@ -157,6 +157,7 @@ class asignacioncontactos extends Component {
             <div className="cont">
                 <img src={Logo} width="96" height="100" alt="" id="loc"/>
                 <label id="ci1" name="labeli">Asignar Contactos</label>
+                <label id="lcap" name="labeli">Contactos</label>
                 <label id="cn" name="labelp" >Nombre:</label>
                 <input name="nombre" disabled={true} type="text" required="required" id="cni" placeholder="Nombre" onChange={this.changeHandler} value={nombre}/>
                 <label id="ct" name="labelp" >Teléfono:</label>
@@ -176,7 +177,7 @@ class asignacioncontactos extends Component {
 
 
 
-                <div id="cotab">
+                <div id="tablep">
                     <Table id="table" striped bordered hover size="sm" variant="dark">
                         <thead>
                         <tr>

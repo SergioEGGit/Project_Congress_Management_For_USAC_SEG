@@ -15,6 +15,7 @@ class perfil extends Component {
         this.state = {
             usuarios: [],
             asignacioncursos: [],
+            variables: [],
             id: "",
             identificacion: "",
             nombre: "",
@@ -26,7 +27,24 @@ class perfil extends Component {
             us: "",
             pass: "",
             puesto: "",
-            tipo: ""
+            tipo: "",
+
+            id_miembro: "",
+            tipo_miembro: "",
+            nombre_miembro: "",
+            universidad_miembro: "",
+            P_Login: false,
+            P_Logout: true,
+            P_RegistroU: true,
+            P_RegistroP: true,
+            P_RegistroCu: true,
+            P_RegistroCo: true,
+            P_RegistroA: true,
+            P_Cargamasiva: true,
+            P_Perfil: true,
+            P_Inventario: true,
+            P_AsignacionCo: true,
+            P_AsignacionCu: true
         };
 
         this.componentDidMount = this.componentDidMount.bind(this);
@@ -35,53 +53,67 @@ class perfil extends Component {
 
     componentDidMount()
     {
-        axios.get(`http://localhost:4000/api/usuarios/one/1`)
+        axios.get('http://localhost:4000/api/variables/1')
             .then(response => {
-                console.log(response);
-                this.setState({usuarios: response.data});
-                const   us  = this.state.usuarios;
-                this.setState(
-                    {
-                        id: us.id,
-                        identificacion: us.identificacion,
-                        nombre: us.nombre,
-                        fechan: us.fechan,
-                        telefono: us.telefono,
-                        email: us.email,
-                        universidad: us.universidad,
-                        nacionalidad: us.nacionalidad,
-                        us: us.us,
-                        pass: us.pass,
-                        puesto: us.puesto,
-                        tipo: us.tipo
+                console.log(response.id_miembro);
+                this.setState({variables: response.data});
+                const { variables } = this.state;
+                axios.get(`http://localhost:4000/api/usuarios/one/${variables.id_miembro}`)
+                    .then(response => {
+                        console.log(response);
+                        this.setState({usuarios: response.data});
+                        const   us  = this.state.usuarios;
+                        this.setState(
+                            {
+                                id: us.id,
+                                identificacion: us.identificacion,
+                                nombre: us.nombre,
+                                fechan: us.fechan,
+                                telefono: us.telefono,
+                                email: us.email,
+                                universidad: us.universidad,
+                                nacionalidad: us.nacionalidad,
+                                us: us.us,
+                                pass: us.pass,
+                                puesto: us.puesto,
+                                tipo: us.tipo
+                            });
+
+
+                        axios.get(`http://localhost:4000/api/asignacioncurso`)
+                            .then(response => {
+                                const arreglo = response.data.filter(d => d.estudiante === variables.nombre_miembro);
+                                console.log(arreglo);
+                                this.setState({asignacioncursos: arreglo});
+                            })
+                            .catch(error => {
+                                console.log(error)
+                            });
+                    })
+                    .catch(error => {
+                        console.log(error)
                     });
             })
             .catch(error => {
                 console.log(error)
             });
 
-        axios.get(`http://localhost:4000/api/asignacioncurso`)
-            .then(response => {
-                const arreglo = response.data.filter(d => d.estudiante === "juan");
-                console.log(arreglo);
-                this.setState({asignacioncursos: arreglo});
-            })
-            .catch(error => {
-                console.log(error)
-            });
-     }
+    }
 
     changeHandler = (e) => {
         this.setState({[e.target.name]: e.target.value})
     };
 
+
+
     submitModificar = e => {
             e.preventDefault();
+        const { variables } = this.state;
             console.log(this.state);
-        axios.put(`http://localhost:4000/api/usuarios/1`, this.state)
+        axios.put(`http://localhost:4000/api/usuarios/${variables.id_miembro}`, this.state)
             .then(response => {
                 console.log(response);
-                axios.get(`http://localhost:4000/api/usuarios/one/1`)
+                axios.get(`http://localhost:4000/api/usuarios/one/${variables.id_miembro}`)
                     .then(response => {
                         console.log(response);
                         this.setState({usuarios: response.data});
@@ -112,11 +144,38 @@ class perfil extends Component {
     };
 
     submitEliminar = e => {
+        const {variables} = this.state;
         e.preventDefault();
         console.log(this.state);
-        axios.delete(`http://localhost:4000/api/usuarios/1`)
+        axios.delete(`http://localhost:4000/api/usuarios/${variables.id_miembro}`)
             .then(response => {
                 console.log(response);
+                axios.put('http://localhost:4000/api/variables/1', {
+                    id: "1",
+                    id_miembro: "",
+                    tipo_miembro: "",
+                    nombre_miembro: "",
+                    universidad_miembro: "",
+                    P_Login: false,
+                    P_Logout: true,
+                    P_RegistroU: true,
+                    P_RegistroP: true,
+                    P_RegistroCu: true,
+                    P_RegistroCo: true,
+                    P_RegistroA: true,
+                    P_Cargamasiva: true,
+                    P_Perfil: true,
+                    P_Inventario: true,
+                    P_AsignacionCo: true,
+                    P_AsignacionCu: true
+                })
+                    .then(response => {
+                        console.log(response)
+                    })
+                    .catch(error => {
+                        console.log(error.response)
+                    });
+                window.location.assign('http://localhost:3000/home');
             })
             .catch(error => {
                 console.log(error.response)
@@ -163,7 +222,6 @@ class perfil extends Component {
                     <Table id="table" striped bordered hover size="sm" variant="dark">
                         <thead>
                         <tr>
-                            <th width="60">Id</th>
                             <th width="60">Curso</th>
                             <th width="60">Sección</th>
                         </tr>
@@ -174,7 +232,6 @@ class perfil extends Component {
                                 asignacioncursos.map(
                                     asignacioncurso =>
                                         <tr key={asignacioncurso.id}>
-                                            <td>{asignacioncurso.id}</td>
                                             <td>{asignacioncurso.curso}</td>
                                             <td>{asignacioncurso.secciona}</td>
                                         </tr>

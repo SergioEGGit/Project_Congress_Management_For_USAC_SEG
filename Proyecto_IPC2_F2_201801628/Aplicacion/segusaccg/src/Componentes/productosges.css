@@ -203,3 +203,24 @@
     width: 121px;
     height: 37px;
 }
+
+#tablep {
+    position: absolute;
+    left: 477px;
+    top: 126px;
+    width: 656px;
+    height: 534px;
+}
+
+#lcap	{
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+    font-size: 30px;
+    font-style: oblique;
+    color: #fff6f8;
+    position: absolute;
+    left: 700px;
+    top: 76px;
+    height: 41px;
+    text-shadow: 0 0 0.2em #0013ff, 0 0 0.2em #0013ff;
+    width: 250px;
+}

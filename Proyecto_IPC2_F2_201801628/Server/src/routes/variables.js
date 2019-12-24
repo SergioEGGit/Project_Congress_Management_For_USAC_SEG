@@ -11,13 +11,20 @@ const variables = require('../../DB/variables.json');
 
 
 
-router.get('/', (req, res) => {
-    res.json(variables);
+router.get('/:id', (req, res) => {
+    const { id } = req.params;
+    var {json} = "";
+    _.each(variables, (variable, i) => {
+        if(variable.id === id) {
+            json = variable;
+        }
+    });
+    res.json(json);
 });
 
 router.put('/:id', (req, res) => {
     const { id } = req.params;
-    const {id_miembro,tipo_miembro, nombre_miembro, universidad_miembro, P_Login, P_Logout, P_RegistroU,P_RegistroP, P_RegistroCu, P_RegistroCo, P_RegistroA, P_Cargamasiva, P_Perfil, P_Inventario, P_AsignacionCo, P_AsignacionCu } = req.body;
+    const {id_miembro,tipo_miembro, nombre_miembro, universidad_miembro, P_Login, P_Logout, P_RegistroU,P_RegistroP, P_RegistroCu, P_RegistroCo, P_RegistroA, P_Cargamasiva, P_Perfil, P_Inventario, P_AsignacionCo, P_AsignacionCu, P_AsignacionCa, P_Noticia } = req.body;
     if (id) {
         _.each(variables, (variable, i) => {
             if (variable.id === id) {
@@ -37,6 +44,8 @@ router.put('/:id', (req, res) => {
                 variable.P_Inventario = P_Inventario;
                 variable.P_AsignacionCo = P_AsignacionCo;
                 variable.P_AsignacionCu = P_AsignacionCu;
+                variable.P_AsignacionCa = P_AsignacionCa;
+                variable.P_Noticia = P_Noticia
             }
         });
         res.json(variables);

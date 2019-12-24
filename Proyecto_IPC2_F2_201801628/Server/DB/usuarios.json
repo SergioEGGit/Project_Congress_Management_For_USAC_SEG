@@ -12,5 +12,47 @@
     "pass": "12345",
     "puesto": "",
     "tipo": "Administrador"
+  },
+  {
+    "id": "2",
+    "identificacion": "",
+    "nombre": "Felipe Carbajal",
+    "fechan": "",
+    "telefono": "",
+    "email": "",
+    "universidad": "Mariano",
+    "nacionalidad": "",
+    "us": "Ale",
+    "pass": "12345",
+    "puesto": "",
+    "tipo": "Colaborador"
+  },
+  {
+    "id": "3",
+    "identificacion": "",
+    "nombre": "Pedro Fuentes",
+    "fechan": "",
+    "telefono": "",
+    "email": "",
+    "universidad": "Usac",
+    "nacionalidad": "",
+    "us": "Kira",
+    "pass": "12345",
+    "puesto": "",
+    "tipo": "Catedratico"
+  },
+  {
+    "id": "4",
+    "identificacion": "",
+    "nombre": "Sergio Gomez",
+    "fechan": "",
+    "telefono": "",
+    "email": "",
+    "universidad": "Usac",
+    "nacionalidad": "",
+    "us": "Sergio",
+    "pass": "12345",
+    "puesto": "",
+    "tipo": "Estudiante"
   }
 ]

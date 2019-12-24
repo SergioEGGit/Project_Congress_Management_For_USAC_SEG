@@ -161,6 +161,7 @@ class gestionarus extends Component {
             <div className="cont">
 
                 <img src={Logo} width="96" height="100" alt="" id="l"/>
+                <label id="lcap" name="labeli">Usuarios</label>
                 <label id="lbi" name="labeli">Gestión De Usuarios</label>
                 <label id="lbid" name="labelu">Identificacion:</label>
                 <input name="identificacion" type="number" required="required" id="ipid" placeholder="Identificacion" onChange={this.changeHandler} value={identificacion}/>
@@ -195,7 +196,7 @@ class gestionarus extends Component {
 
 
 
-                <div id="tab">
+                <div id="tablep">
                     <Table id="table" striped bordered hover size="sm" variant="dark">
                         <thead>
                         <tr>

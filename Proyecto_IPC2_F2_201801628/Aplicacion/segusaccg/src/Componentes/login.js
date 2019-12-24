@@ -29,7 +29,9 @@ class login extends Component {
             P_Perfil: true,
             P_Inventario: true,
             P_AsignacionCo: true,
-            P_AsignacionCu: true
+            P_AsignacionCu: true,
+            P_AsignacionCa: true,
+            P_Noticia: true
         };
 
         this.handleOnchangeU = this.handleOnchangeU.bind(this);
@@ -79,6 +81,8 @@ class login extends Component {
         var Inventario = this.state.P_Inventario;
         var AsignacionCo = this.state.P_AsignacionCo;
         var AsignacionCu = this.state.P_AsignacionCu;
+        var AsignacionCa = this.state.P_AsignacionCa;
+        var Noticia = this.state.P_Noticia;
 
         if(usuarios.us === user) {
             if(usuarios.pass === pass) {
@@ -98,8 +102,10 @@ class login extends Component {
                     Cargamasiva = false;
                     Perfil = false;
                     Inventario = false;
-                    AsignacionCo = false;
-                    AsignacionCu = false;
+                    AsignacionCo = true;
+                    AsignacionCu = true;
+                    AsignacionCa = true;
+                    Noticia = false;
                 }
                 if(usuarios.tipo === "Colaborador") {
                     Login = true;
@@ -114,6 +120,8 @@ class login extends Component {
                     Inventario = false;
                     AsignacionCo = false;
                     AsignacionCu = false;
+                    AsignacionCa = true;
+                    Noticia = false;
                 }
                 if(usuarios.tipo === "Catedratico") {
                     Login = true;
@@ -128,6 +136,8 @@ class login extends Component {
                     Inventario = true;
                     AsignacionCo = true;
                     AsignacionCu = true;
+                    AsignacionCa = false;
+                    Noticia = true;
                 }
                 if(usuarios.tipo === "Estudiante") {
                     Login = true;
@@ -142,8 +152,9 @@ class login extends Component {
                     Inventario = true;
                     AsignacionCo = true;
                     AsignacionCu = false;
+                    AsignacionCa = true;
+                    Noticia = true;
                 }
-                window.location.assign('http://localhost:3000/home');
                 axios.put('http://localhost:4000/api/variables/1', {
                     id_miembro: id,
                     tipo_miembro: tipo,
@@ -160,7 +171,9 @@ class login extends Component {
                     P_Perfil: Perfil,
                     P_Inventario: Inventario,
                     P_AsignacionCo: AsignacionCo,
-                    P_AsignacionCu: AsignacionCu
+                    P_AsignacionCu: AsignacionCu,
+                    P_AsignacionCa: AsignacionCa,
+                    P_Noticia: Noticia
                 })
                     .then(response => {
                         console.log(response)
@@ -169,9 +182,7 @@ class login extends Component {
                         console.log(error.response)
                     });
 
-
-
-
+                window.location.assign('http://localhost:3000/home');
                 this.clearData();
             } else {
                 alert("Su Contraseña Es Incorrecta");

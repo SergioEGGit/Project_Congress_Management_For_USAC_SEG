@@ -9,8 +9,6 @@ var urlencodedParser = bodyParser.urlencoded({ extended: false });
 const asignacioncursos = require('../../DB/asignacioncurso.json');
 
 
-
-
 router.get('/', (req, res) => {
     res.json(asignacioncursos);
 });

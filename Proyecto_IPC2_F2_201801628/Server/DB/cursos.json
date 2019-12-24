@@ -5,7 +5,8 @@
     "nombre": "IPC",
     "seccion": "B",
     "universidad": "Usac",
-    "titular": "Julio"
+    "titular": "Julio",
+    "peticion": "aprobada"
   },
   {
     "id": "2",
@@ -13,7 +14,7 @@
     "nombre": "IPC",
     "seccion": "A",
     "universidad": "Usac",
-    "titular": "Julio"
+    "peticion": "aprobada"
   },
   {
     "id": "3",
@@ -21,6 +22,7 @@
     "nombre": "IPC",
     "seccion": "C",
     "universidad": "Mariano",
-    "titular": "Julio"
+    "titular": "Julio",
+    "peticion": "aprobada"
   }
 ]

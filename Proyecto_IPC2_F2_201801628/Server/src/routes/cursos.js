@@ -54,7 +54,7 @@ router.post('/', (req, res) => {
 
 router.put('/:id', (req, res) => {
     const { id } = req.params;
-    const {codigo, nombre, seccion, universidad, titular } = req.body;
+    const {codigo, nombre, seccion, universidad, titular, peticion } = req.body;
     if (id && codigo) {
         _.each(cursos, (curso, i) => {
             if (curso.id === id) {
@@ -63,6 +63,7 @@ router.put('/:id', (req, res) => {
                 curso.seccion = seccion;
                 curso.universidad = universidad;
                 curso.titular = titular;
+                curso.peticion = peticion
             }
         });
         res.json(cursos);

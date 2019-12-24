@@ -16,6 +16,8 @@
     "P_Perfil": true,
     "P_Inventario": true,
     "P_AsignacionCo": true,
-    "P_AsignacionCu": true
+    "P_AsignacionCu": true,
+    "P_AsignacionCa": true,
+    "P_Noticias": true
   }
 ]
