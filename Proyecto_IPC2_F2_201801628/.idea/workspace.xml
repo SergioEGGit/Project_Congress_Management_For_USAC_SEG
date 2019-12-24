@@ -22,56 +22,7 @@
     <favorites_list name="Proyecto_IPC2_F2_201801628" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/login.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2112">
-              <caret line="129" column="37" lean-forward="true" selection-start-line="129" selection-start-column="37" selection-end-line="129" selection-end-column="37" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/gastoseingresosges.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="173" lean-forward="true" selection-start-line="173" selection-end-line="173" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/noticiasges.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="110" column="8" selection-start-line="110" selection-start-column="8" selection-end-line="117" selection-end-column="15" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/home.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="108" lean-forward="true" selection-start-line="108" selection-end-line="142" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -144,10 +95,10 @@
         <option value="$PROJECT_DIR$/Server/DB/gastoseingresos.json" />
         <option value="$PROJECT_DIR$/Server/src/routes/variables.js" />
         <option value="$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/login.js" />
-        <option value="$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/navbar.js" />
         <option value="$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/gastoseingresos.css" />
         <option value="$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/gastoseingresos.js" />
         <option value="$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/gastoseingresosges.js" />
+        <option value="$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/navbar.js" />
       </list>
     </option>
   </component>
@@ -277,12 +228,12 @@
       <workItem from="1577018552136" duration="45875000" />
       <workItem from="1577105158869" duration="17059000" />
       <workItem from="1577129913868" duration="15571000" />
-      <workItem from="1577192430329" duration="29050000" />
+      <workItem from="1577192430329" duration="29368000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="218927000" />
+    <option name="totallyTimeSpent" value="219245000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -295,7 +246,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1376" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49918166" visible="true" weight="0.22122571" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -664,16 +614,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/navbar.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2112">
-          <caret line="96" column="26" selection-start-line="96" selection-start-column="26" selection-end-line="96" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/logout.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-220">
@@ -691,16 +631,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/home.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="108" lean-forward="true" selection-start-line="108" selection-end-line="142" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/gastoseingresos.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -711,10 +641,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/navbar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="27" column="62" lean-forward="true" selection-start-line="27" selection-start-column="62" selection-end-line="27" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/login.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2112">
           <caret line="129" column="37" lean-forward="true" selection-start-line="129" selection-start-column="37" selection-end-line="129" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/gastoseingresosges.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="173" lean-forward="true" selection-start-line="173" selection-end-line="173" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
@@ -731,10 +678,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/gastoseingresosges.js">
+    <entry file="file://$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/home.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="173" lean-forward="true" selection-start-line="173" selection-end-line="173" />
+        <state relative-caret-position="176">
+          <caret line="108" lean-forward="true" selection-start-line="108" selection-end-line="142" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
