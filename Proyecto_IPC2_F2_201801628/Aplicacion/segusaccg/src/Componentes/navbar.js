@@ -18,9 +18,15 @@ import Cursosges from "./cursosges";
 import Asignarcursoses from "./asignarcursoses";
 import Asignacioncursosca from "./asignacioncursoca";
 import Noticias from "./noticias";
+import Noticiasges from "./noticiasges";
+import Registrologin from "./registrologin";
+import Actividades from "./actividades";
+import Actividadesges from "./actividadesges";
+import Gastoseingresos from "./gastoseingresos";
 import { FiLogIn, FiLogOut } from 'react-icons/fi';
 import { TiHomeOutline, TiDocumentAdd } from 'react-icons/ti';
 import { GiLadder } from 'react-icons/gi';
+import { MdImportContacts } from 'react-icons/md';
 import { FaUserPlus, FaUser, FaFileInvoiceDollar, FaBook, FaBookReader, FaChalkboardTeacher, FaRegNewspaper } from 'react-icons/fa';
 import { IoMdContact, IoIosContacts } from 'react-icons/io';
 import '@trendmicro/react-sidenav/dist/react-sidenav.css';
@@ -86,7 +92,8 @@ class navbar extends Component {
             P_AsignacionCo: true,
             P_AsignacionCu: true,
             P_AsignacionCa: true,
-            P_Noticias: true
+            P_Noticias: true,
+            P_Actividades: true
         })
             .then(response => {
                 console.log(response)
@@ -160,6 +167,22 @@ class navbar extends Component {
                                     </NavIcon>
                                     <NavText id="tex">
                                         Resgistro De Cursos
+                                    </NavText>
+                                </NavItem>
+                                <NavItem hidden={variables.P_Actividades} eventKey="actividades">
+                                    <NavIcon>
+                                        <MdImportContacts  id="icon"/>
+                                    </NavIcon>
+                                    <NavText id="tex">
+                                        Resgistro De Actividades
+                                    </NavText>
+                                </NavItem>
+                                <NavItem hidden={variables.P_Gastos} eventKey="gastoseingresos">
+                                    <NavIcon>
+                                        <MdImportContacts  id="icon"/>
+                                    </NavIcon>
+                                    <NavText id="tex">
+                                        Resgistro De Gastos E Ingresos
                                     </NavText>
                                 </NavItem>
                                 <NavItem hidden={variables.P_Cargamasiva} eventKey="cargamasiva">
@@ -248,6 +271,11 @@ class navbar extends Component {
                             <Route path="/asignarcursoses" component={props => <Asignarcursoses />} />
                             <Route path="/asignacioncursosca" component={props => <Asignacioncursosca />} />
                             <Route path="/noticias" component={props => <Noticias />} />
+                            <Route path="/noticiasges" component={props => <Noticiasges />} />
+                            <Route path="/actividades" component={props => <Actividades />} />
+                            <Route path="/actividadesges" component={props => <Actividadesges />} />
+                            <Route path="/registrologin" component={props => <Registrologin />} />
+                            <Route path="/gastoseingresos" component={props => <Gastoseingresos />} />
                         </main>
                     </React.Fragment>
                 )}/>

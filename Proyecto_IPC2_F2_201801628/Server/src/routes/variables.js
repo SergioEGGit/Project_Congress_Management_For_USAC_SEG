@@ -24,7 +24,7 @@ router.get('/:id', (req, res) => {
 
 router.put('/:id', (req, res) => {
     const { id } = req.params;
-    const {id_miembro,tipo_miembro, nombre_miembro, universidad_miembro, P_Login, P_Logout, P_RegistroU,P_RegistroP, P_RegistroCu, P_RegistroCo, P_RegistroA, P_Cargamasiva, P_Perfil, P_Inventario, P_AsignacionCo, P_AsignacionCu, P_AsignacionCa, P_Noticia } = req.body;
+    const {id_miembro,tipo_miembro, nombre_miembro, universidad_miembro, P_Login, P_Logout, P_RegistroU,P_RegistroP, P_RegistroCu, P_RegistroCo, P_RegistroA, P_Cargamasiva, P_Perfil, P_Inventario, P_AsignacionCo, P_AsignacionCu, P_AsignacionCa, P_Noticias, P_Actividades, P_Gastos } = req.body;
     if (id) {
         _.each(variables, (variable, i) => {
             if (variable.id === id) {
@@ -45,7 +45,9 @@ router.put('/:id', (req, res) => {
                 variable.P_AsignacionCo = P_AsignacionCo;
                 variable.P_AsignacionCu = P_AsignacionCu;
                 variable.P_AsignacionCa = P_AsignacionCa;
-                variable.P_Noticia = P_Noticia
+                variable.P_Noticias = P_Noticias;
+                variable.P_Actividades = P_Actividades;
+                variable.P_Gastos = P_Gastos;
             }
         });
         res.json(variables);

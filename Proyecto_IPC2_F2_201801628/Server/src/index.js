@@ -23,6 +23,9 @@ app.use('/api/cursos' ,require('./routes/cursos'));
 app.use('/api/asignacioncurso' ,require('./routes/asignacioncurso'));
 app.use('/api/variables' ,require('./routes/variables'));
 app.use('/api/noticias' ,require('./routes/noticias'));
+app.use('/api/actividades' ,require('./routes/actividades'));
+app.use('/api/gastoseingresos' ,require('./routes/gastoseingresos'));
+
 
 
 

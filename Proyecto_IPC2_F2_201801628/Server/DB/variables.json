@@ -18,6 +18,7 @@
     "P_AsignacionCo": true,
     "P_AsignacionCu": true,
     "P_AsignacionCa": true,
-    "P_Noticias": true
+    "P_Noticias": true,
+    "P_Actividades": true
   }
 ]

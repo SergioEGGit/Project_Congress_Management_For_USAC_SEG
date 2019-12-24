@@ -1,0 +1,12 @@
+[
+  {
+    "id": "1",
+    "fecha": "15/12/2019",
+    "hora": "15:40",
+    "lugar": "aula magna",
+    "tipo": "Conferencia",
+    "cantidad": "50",
+    "expositor": "Cesar",
+    "descripcion": "Exposicion"
+  }
+]

@@ -74,7 +74,7 @@ class productos extends Component {
             })
             .catch(error => {
                 console.log(error.response)
-            })
+            });
         this.clearData();
     };
 

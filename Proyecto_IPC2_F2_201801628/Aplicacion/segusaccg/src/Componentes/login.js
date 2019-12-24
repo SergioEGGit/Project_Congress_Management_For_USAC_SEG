@@ -31,7 +31,9 @@ class login extends Component {
             P_AsignacionCo: true,
             P_AsignacionCu: true,
             P_AsignacionCa: true,
-            P_Noticia: true
+            P_Noticias: true,
+            P_Actividades: true,
+            P_Gastos: true
         };
 
         this.handleOnchangeU = this.handleOnchangeU.bind(this);
@@ -82,7 +84,9 @@ class login extends Component {
         var AsignacionCo = this.state.P_AsignacionCo;
         var AsignacionCu = this.state.P_AsignacionCu;
         var AsignacionCa = this.state.P_AsignacionCa;
-        var Noticia = this.state.P_Noticia;
+        var Noticias = this.state.P_Noticias;
+        var Actividades = this.state.P_Actividades;
+        var Gastos = this.state.P_Gastos;
 
         if(usuarios.us === user) {
             if(usuarios.pass === pass) {
@@ -105,7 +109,9 @@ class login extends Component {
                     AsignacionCo = true;
                     AsignacionCu = true;
                     AsignacionCa = true;
-                    Noticia = false;
+                    Noticias = false;
+                    Actividades = false;
+                    Gastos = true;
                 }
                 if(usuarios.tipo === "Colaborador") {
                     Login = true;
@@ -121,7 +127,9 @@ class login extends Component {
                     AsignacionCo = false;
                     AsignacionCu = false;
                     AsignacionCa = true;
-                    Noticia = false;
+                    Noticias = false;
+                    Actividades = true;
+                    Gastos = true;
                 }
                 if(usuarios.tipo === "Catedratico") {
                     Login = true;
@@ -137,7 +145,9 @@ class login extends Component {
                     AsignacionCo = true;
                     AsignacionCu = true;
                     AsignacionCa = false;
-                    Noticia = true;
+                    Noticias = true;
+                    Actividades = true;
+                    Gastos = true;
                 }
                 if(usuarios.tipo === "Estudiante") {
                     Login = true;
@@ -153,7 +163,9 @@ class login extends Component {
                     AsignacionCo = true;
                     AsignacionCu = false;
                     AsignacionCa = true;
-                    Noticia = true;
+                    Noticias = true;
+                    Actividades = true;
+                    Gastos = true;
                 }
                 axios.put('http://localhost:4000/api/variables/1', {
                     id_miembro: id,
@@ -173,7 +185,9 @@ class login extends Component {
                     P_AsignacionCo: AsignacionCo,
                     P_AsignacionCu: AsignacionCu,
                     P_AsignacionCa: AsignacionCa,
-                    P_Noticia: Noticia
+                    P_Noticias: Noticias,
+                    P_Actividades: Actividades,
+                    P_Gastos: Gastos
                 })
                     .then(response => {
                         console.log(response)
@@ -195,6 +209,11 @@ class login extends Component {
         event.preventDefault();
     }
 
+
+    gestionar() {
+        window.location.assign('http://localhost:3000/registrologin');
+    }
+
     render() {
 
         return (
@@ -205,7 +224,8 @@ class login extends Component {
                <input name="inu" type="text" required="required" id="inu"  value={this.state.user} onChange={this.handleOnchangeU} placeholder="Usuario"/>
                <label id="lrc" name="lrc">Contraseña:</label>
                <input name="bri" type="button" id="bri" onClick={this.handleSubmit} value="Ingresar "/>
-               <input type="button" name="brr" id="brr" value="Registrarse"/>
+               <input type="button" name="brr" id="brr" onClick={this.gestionar} value="Registrarse"/>
+
                <input name="inp" type="password" required="required" id="inp" value={this.state.pass} onChange={this.handleOnchangeP} placeholder="Contraseña"/>
 
            </div>
