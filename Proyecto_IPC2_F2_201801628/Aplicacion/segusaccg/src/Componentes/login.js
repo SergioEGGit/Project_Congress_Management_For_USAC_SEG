@@ -111,7 +111,7 @@ class login extends Component {
                     AsignacionCa = true;
                     Noticias = false;
                     Actividades = false;
-                    Gastos = true;
+                    Gastos = false;
                 }
                 if(usuarios.tipo === "Colaborador") {
                     Login = true;

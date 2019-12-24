@@ -43,7 +43,7 @@
     width: 188px;
     height: 67px;
 }
-#pic {
+#pict {
     font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
     font-size: 16px;
     font-style: oblique;
@@ -51,10 +51,10 @@
     text-decoration: overline;
     position: absolute;
     left: 265px;
-    top: 285px;
+    top: 220px;
     width: 189px;
 }
-#pie {
+#pief {
     font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
     font-size: 16px;
     font-style: oblique;
@@ -62,10 +62,10 @@
     text-decoration: overline;
     position: absolute;
     left: 264px;
-    top: 317px;
+    top: 270px;
     width: 189px;
 }
-#piu {
+#piut {
     font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
     font-size: 16px;
     font-style: oblique;
@@ -73,7 +73,7 @@
     text-decoration: overline;
     position: absolute;
     left: 265px;
-    top: 352px;
+    top: 320px;
     width: 189px;
 }
 #pcombo {
@@ -120,36 +120,36 @@
     height: 22px;
     text-shadow: 0 0 0.2em #ffc810, 0 0 0.2em #ffc810
 }
-#ple	{
+#plef	{
     font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
     font-size: 20px;
     font-style: oblique;
     color: #130090;
     position: absolute;
     left: 82px;
-    top: 319px;
+    top: 270px;
     height: 22px;
     text-shadow: 0 0 0.2em #ffc810, 0 0 0.2em #ffc810
 }
-#plc	{
+#plct	{
     font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
     font-size: 20px;
     font-style: oblique;
     color: #130090;
     position: absolute;
     left: 79px;
-    top: 284px;
+    top: 220px;
     height: 22px;
     text-shadow: 0 0 0.2em #ffc810, 0 0 0.2em #ffc810
 }
-#plu	{
+#plut	{
     font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
     font-size: 20px;
     font-style: oblique;
     color: #130090;
     position: absolute;
     left: 80px;
-    top: 352px;
+    top: 320px;
     height: 22px;
     text-shadow: 0 0 0.2em #ffc810, 0 0 0.2em #ffc810
 }
@@ -179,26 +179,26 @@
     width: 76px;
     height: 67px;
 }
-#pbc {
+#pbcty {
     position: absolute;
     border-radius: 20px;
     color: aliceblue;
     background: #970033;
     font-size: 20px;
     left: 122px;
-    top: 436px;
+    top: 360px;
     border: hidden;
     width: 121px;
     height: 37px;
 }
-#pbg {
+#pbgty {
     position: absolute;
     border-radius: 20px;
     color: aliceblue;
     background: #970033;
     font-size: 20px;
     left: 281px;
-    top: 435px;
+    top: 360px;
     border: hidden;
     width: 121px;
     height: 37px;

@@ -3,9 +3,9 @@ import './gastoseingresos.css';
 import axios from 'axios';
 import Logo from "../Assets/login.jpg";
 import {Table} from "react-bootstrap";
+const $ = require("jquery");
 
-
-class gastoseingresos extends Component {
+class gastoseingresosges extends Component {
 
 
     constructor(props) {
@@ -14,16 +14,99 @@ class gastoseingresos extends Component {
 
         this.state = {
             id: "",
-            codigo: "",
+            id_miembro_p: "",
+            nombre_miembro_p: "",
+            titulo: "",
             descripcion: "",
-            total: "",
-            fecha: "",
-            tipo:"",
-            gastoseingresos: []
-        }
+            variables: [],
+            gastoseingresos: [],
+            gastoseingresos1: []
+        };
+
+        this.clearData = this.clearData.bind(this);
+        this.tablaclick = this.tablaclick.bind(this);
 
     }
+    changeHandler = (e) => {
+        this.setState({[e.target.name]: e.target.value})
+    };
 
+
+    tablaclick(event){
+        let _this = this;
+        $('table tr').on('click',function(event){
+            event.preventDefault();
+            event.stopImmediatePropagation();
+            var dato = $(this).find('td:first').html();
+            console.log(dato);
+            axios.get(`http://localhost:4000/api/gastoseingresos/${dato}`)
+                .then(response => {
+                    console.log(response);
+                    _this.setState({gastoseingresos1: response.data})
+                })
+                .catch(error => {
+                    console.log(error)
+                });
+            const   us  = _this.state.gastoseingresos1;
+            _this.setState(
+                {
+                    id: us.id,
+                    codigo: us.codigo,
+                    descripcion: us.descripcion,
+                    total: us.total,
+                    fecha: us.fecha,
+                    tipo: us.tipo
+                });
+        });
+
+        event.preventDefault();
+    }
+
+    submitModificar = e => {
+        e.preventDefault();
+        console.log(this.state);
+        const { variables } = this.state;
+        axios.put(`http://localhost:4000/api/gastoseingresos/${this.state.id}`, this.state)
+            .then(response => {
+                console.log(response);
+                axios.get('http://localhost:4000/api/gastoseingresos')
+                    .then(response => {
+                        console.log(response);
+                        this.setState({gastoseingresos: response.data})
+                    })
+                    .catch(error => {
+                        console.log(error)
+                    })
+            })
+            .catch(error => {
+                console.log(error.response)
+            });
+        this.clearData();
+
+    };
+
+    submitEliminar = e => {
+        e.preventDefault();
+        console.log(this.state);
+        const { variables } = this.state;
+        axios.delete(`http://localhost:4000/api/gastoseingresos/${this.state.id}`)
+            .then(response => {
+                console.log(response);
+                axios.get('http://localhost:4000/api/gastoseingresos')
+                    .then(response => {
+                        console.log(response);
+                        this.setState({gastoseingresos: response.data})
+                    })
+                    .catch(error => {
+                        console.log(error)
+                    })
+            })
+            .catch(error => {
+                console.log(error.response)
+            });
+        this.clearData();
+
+    };
 
     componentDidMount()
     {
@@ -35,6 +118,14 @@ class gastoseingresos extends Component {
             .catch(error => {
                 console.log(error)
             })
+        axios.get('http://localhost:4000/api/variables/1')
+            .then(response => {
+                console.log(response);
+                this.setState({variables: response.data})
+            })
+            .catch(error => {
+                console.log(error)
+            });
 
     }
 
@@ -51,41 +142,7 @@ class gastoseingresos extends Component {
         );
     }
 
-    changeHandler = (e) => {
-        this.setState({[e.target.name]: e.target.value})
-    };
 
-    submitHandler = e => {
-        e.preventDefault();
-        console.log(this.state.codigo);
-        axios.post('http://localhost:4000/api/gastoseingresos', {
-            codigo: this.state.codigo,
-            descripcion: this.state.descripcion,
-            total: this.state.total,
-            fecha: this.state.fecha,
-            tipo: this.state.tipo
-        })
-            .then(response => {
-                console.log(response)
-                axios.get('http://localhost:4000/api/gastoseingresos')
-                    .then(response => {
-                        console.log(response);
-                        this.setState({gastoseingresos: response.data})
-                    })
-                    .catch(error => {
-                        console.log(error)
-                    })
-            })
-            .catch(error => {
-                console.log(error.response)
-            });
-        this.clearData();
-    };
-
-
-    gestionar() {
-        window.location.assign('http://localhost:3000/gastoseingresosges');
-    }
 
     render() {
         const {gastoseingresos, codigo, descripcion, total, fecha, tipo} = this.state;
@@ -110,8 +167,8 @@ class gastoseingresos extends Component {
                     <option id ="piu" value="Ingreso">Ingreso</option>
                 </select>
 
-                <input name="buttoni" type="button" id="pbcty" onClick={this.submitHandler} value="Crear"/>
-                <input name="buttonr" type="button" id="pbgty" onClick={this.gestionar} value="Gestionar"/>
+                <input name="buttoni" type="button" id="pbcty" onClick={this.submitModificar} value="Modificar"/>
+                <input name="buttonr" type="button" id="pbgty" onClick={this.submitEliminar} value="Eliminar"/>
 
 
 
@@ -148,13 +205,7 @@ class gastoseingresos extends Component {
                     </Table>
                 </div>
 
-
-
-
-
-
-
-            </div>
+           </div>
 
 
 
@@ -163,4 +214,4 @@ class gastoseingresos extends Component {
 }
 
 
-export default  gastoseingresos;
+export default  gastoseingresosges;

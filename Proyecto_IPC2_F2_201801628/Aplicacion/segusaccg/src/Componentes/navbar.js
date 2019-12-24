@@ -23,11 +23,12 @@ import Registrologin from "./registrologin";
 import Actividades from "./actividades";
 import Actividadesges from "./actividadesges";
 import Gastoseingresos from "./gastoseingresos";
+import Gastoseingresosges from "./gastoseingresosges";
 import { FiLogIn, FiLogOut } from 'react-icons/fi';
 import { TiHomeOutline, TiDocumentAdd } from 'react-icons/ti';
 import { GiLadder } from 'react-icons/gi';
 import { MdImportContacts } from 'react-icons/md';
-import { FaUserPlus, FaUser, FaFileInvoiceDollar, FaBook, FaBookReader, FaChalkboardTeacher, FaRegNewspaper } from 'react-icons/fa';
+import { FaUserPlus, FaUser, FaFileInvoiceDollar, FaBook, FaBookReader, FaChalkboardTeacher, FaRegNewspaper, FaSellcast } from 'react-icons/fa';
 import { IoMdContact, IoIosContacts } from 'react-icons/io';
 import '@trendmicro/react-sidenav/dist/react-sidenav.css';
 import axios from "axios";
@@ -93,7 +94,8 @@ class navbar extends Component {
             P_AsignacionCu: true,
             P_AsignacionCa: true,
             P_Noticias: true,
-            P_Actividades: true
+            P_Actividades: true,
+            P_Gastos: true
         })
             .then(response => {
                 console.log(response)
@@ -179,7 +181,7 @@ class navbar extends Component {
                                 </NavItem>
                                 <NavItem hidden={variables.P_Gastos} eventKey="gastoseingresos">
                                     <NavIcon>
-                                        <MdImportContacts  id="icon"/>
+                                        <FaSellcast  id="icon"/>
                                     </NavIcon>
                                     <NavText id="tex">
                                         Resgistro De Gastos E Ingresos
@@ -276,6 +278,7 @@ class navbar extends Component {
                             <Route path="/actividadesges" component={props => <Actividadesges />} />
                             <Route path="/registrologin" component={props => <Registrologin />} />
                             <Route path="/gastoseingresos" component={props => <Gastoseingresos />} />
+                            <Route path="/gastoseingresosges" component={props => <Gastoseingresosges />} />
                         </main>
                     </React.Fragment>
                 )}/>
