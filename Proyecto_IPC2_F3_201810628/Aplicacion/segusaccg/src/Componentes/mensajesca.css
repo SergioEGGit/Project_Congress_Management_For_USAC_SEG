@@ -1,0 +1,12 @@
+#bbr12 {
+    position: absolute;
+    border-radius: 20px;
+    color: aliceblue;
+    background: #970033;
+    font-size: 20px;
+    left: 160px;
+    top: 470px;
+    border: hidden;
+    width: 200px;
+    height: 37px;
+}

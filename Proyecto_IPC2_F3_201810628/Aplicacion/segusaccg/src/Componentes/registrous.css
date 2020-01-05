@@ -1,0 +1,320 @@
+#textfieldi {
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+    font-size: 16px;
+    font-style: oblique;
+    color: #1355CA;
+    text-decoration: overline;
+    position: absolute;
+    left: 696px;
+    top: 235px;
+    width: 189px;
+}
+#textfieldid {
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+    font-size: 16px;
+    font-style: oblique;
+    color: #1355CA;
+    text-decoration: overline;
+    position: absolute;
+    left: 733px;
+    top: 123px;
+    width: 189px;
+}
+#textfieldn {
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+    font-size: 16px;
+    font-style: oblique;
+    color: #1355CA;
+    text-decoration: overline;
+    position: absolute;
+    left: 733px;
+    top: 156px;
+    width: 189px;
+}
+#textfieldf {
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+    font-size: 16px;
+    font-style: oblique;
+    color: #1355CA;
+    text-decoration: overline;
+    position: absolute;
+    left: 732px;
+    top: 190px;
+    width: 189px;
+}
+#textfieldt {
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+    font-size: 16px;
+    font-style: oblique;
+    color: #1355CA;
+    text-decoration: overline;
+    position: absolute;
+    left: 733px;
+    top: 224px;
+    width: 189px;
+}
+#textfielde {
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+    font-size: 16px;
+    font-style: oblique;
+    color: #1355CA;
+    text-decoration: overline;
+    position: absolute;
+    left: 732px;
+    top: 262px;
+    width: 189px;
+}
+#textfieldu {
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+    font-size: 16px;
+    font-style: oblique;
+    color: #1355CA;
+    text-decoration: overline;
+    position: absolute;
+    left: 732px;
+    top: 301px;
+    width: 189px;
+}
+#textfieldna {
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+    font-size: 16px;
+    font-style: oblique;
+    color: #1355CA;
+    text-decoration: overline;
+    position: absolute;
+    left: 698px;
+    top: 335px;
+    width: 191px;
+}
+#textfieldna {
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+    font-size: 16px;
+    font-style: oblique;
+    color: #1355CA;
+    text-decoration: overline;
+    position: absolute;
+    left: 732px;
+    top: 337px;
+    width: 191px;
+}
+#textfieldus {
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+    font-size: 16px;
+    font-style: oblique;
+    color: #1355CA;
+    text-decoration: overline;
+    position: absolute;
+    left: 732px;
+    top: 374px;
+    width: 191px;
+}
+#textfieldpa {
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+    font-size: 16px;
+    font-style: oblique;
+    color: #1355CA;
+    text-decoration: overline;
+    position: absolute;
+    left: 733px;
+    top: 411px;
+    width: 191px;
+}
+#textfieldp {
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+    font-size: 16px;
+    font-style: oblique;
+    color: #1355CA;
+    text-decoration: overline;
+    position: absolute;
+    left: 733px;
+    top: 451px;
+    width: 191px;
+}
+#comboti {
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+    font-size: 16px;
+    font-style: oblique;
+    color: #1355CA;
+    text-decoration: overline;
+    position: absolute;
+    left: 733px;
+    top: 488px;
+    width: 191px;
+}
+
+#labelp	{
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+    font-size: 20px;
+    font-style: oblique;
+    color: #130090;
+    position: absolute;
+    left: 544px;
+    top: 447px;
+    height: 22px;
+    text-shadow: 0 0 0.2em #ffc810, 0 0 0.2em #ffc810
+}
+#labelid	{
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+    font-size: 20px;
+    font-style: oblique;
+    color: #130090;
+    position: absolute;
+    left: 547px;
+    top: 122px;
+    height: 22px;
+    text-shadow: 0 0 0.2em #ffc810, 0 0 0.2em #ffc810
+}
+#labeln	{
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+    font-size: 20px;
+    font-style: oblique;
+    color: #130090;
+    position: absolute;
+    left: 542px;
+    top: 161px;
+    height: 22px;
+    text-shadow: 0 0 0.2em #ffc810, 0 0 0.2em #ffc810
+}
+#labelf	{
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+    font-size: 20px;
+    font-style: oblique;
+    color: #130090;
+    position: absolute;
+    left: 539px;
+    top: 198px;
+    height: 22px;
+    text-shadow: 0 0 0.2em #ffc810, 0 0 0.2em #ffc810
+}
+#labelt	{
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+    font-size: 20px;
+    font-style: oblique;
+    color: #130090;
+    position: absolute;
+    left: 539px;
+    top: 231px;
+    height: 22px;
+    text-shadow: 0 0 0.2em #ffc810, 0 0 0.2em #ffc810
+}
+#labele	{
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+    font-size: 20px;
+    font-style: oblique;
+    color: #130090;
+    position: absolute;
+    left: 541px;
+    top: 265px;
+    height: 22px;
+    text-shadow: 0 0 0.2em #ffc810, 0 0 0.2em #ffc810
+}
+#labelu	{
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+    font-size: 20px;
+    font-style: oblique;
+    color: #130090;
+    position: absolute;
+    left: 538px;
+    top: 302px;
+    height: 22px;
+    text-shadow: 0 0 0.2em #ffc810, 0 0 0.2em #ffc810
+}
+#labelna	{
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+    font-size: 20px;
+    font-style: oblique;
+    color: #130090;
+    position: absolute;
+    left: 539px;
+    top: 341px;
+    height: 22px;
+    text-shadow: 0 0 0.2em #ffc810, 0 0 0.2em #ffc810
+}
+#labelus	{
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+    font-size: 20px;
+    font-style: oblique;
+    color: #130090;
+    position: absolute;
+    left: 543px;
+    top: 375px;
+    height: 22px;
+    text-shadow: 0 0 0.2em #ffc810, 0 0 0.2em #ffc810
+}
+#labelpa	{
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+    font-size: 20px;
+    font-style: oblique;
+    color: #130090;
+    position: absolute;
+    left: 539px;
+    top: 411px;
+    height: 22px;
+    text-shadow: 0 0 0.2em #ffc810, 0 0 0.2em #ffc810
+}
+#labeli	{
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+    font-size: 30px;
+    font-style: oblique;
+    color: #fff6f8;
+    position: absolute;
+    left: 609px;
+    top: 80px;
+    height: 22px;
+    text-shadow: 0 0 0.2em #0013ff, 0 0 0.2em #0013ff
+}
+#labelti	{
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+    font-size: 20px;
+    font-style: oblique;
+    color: #130090;
+    position: absolute;
+    left: 547px;
+    top: 487px;
+    height: 22px;
+    text-shadow: 0 0 0.2em #ffc810, 0 0 0.2em #ffc810
+}
+
+#cont {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    height: 572px;
+    width: 2505px;
+}
+#logo {
+    position: absolute;
+    left: 701px;
+    top: 11px;
+    border-radius: 70%;
+    width: 76px;
+    height: 67px;
+}
+#buttoni {
+    position: absolute;
+    border-radius: 20px;
+    color: aliceblue;
+    background: #970033;
+    font-size: 20px;
+    left: 597px;
+    top: 526px;
+    border: hidden;
+    width: 121px;
+    height: 37px;
+}
+#buttonr {
+    position: absolute;
+    border-radius: 20px;
+    color: aliceblue;
+    background: #970033;
+    font-size: 20px;
+    left: 755px;
+    top: 526px;
+    border: hidden;
+    width: 121px;
+    height: 37px;
+}
+
+body {
+    background-image: url("../Assets/fondo.jpg");
+}
