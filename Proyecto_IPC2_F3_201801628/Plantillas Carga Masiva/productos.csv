@@ -1,2 +1,2 @@
-codigo,nombre,descripcion,cantidad,encargado,ubicacion,estado
-555,escobas,tres escobas de madera,50,,Bodega,no
+codigo,nombre,descripcion,cantidad,encargado,ubicacion,estado,tipo
+555,escobas,tres escobas de madera,50,,Bodega,no,Coffe Break

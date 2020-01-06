@@ -5,28 +5,41 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e784a9b0-6102-46ed-9fad-1a4ca0e0f080" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/registrocoffe.css" beforeDir="false" afterPath="$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/registrocoffe.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/registroscoffe.js" beforeDir="false" afterPath="$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/registroscoffe.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server/DB/coffebreak.json" beforeDir="false" afterPath="$PROJECT_DIR$/Server/DB/coffebreak.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server/DB/productos.json" beforeDir="false" afterPath="$PROJECT_DIR$/Server/DB/productos.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/Server/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server/src/routes/actividades.js" beforeDir="false" afterPath="$PROJECT_DIR$/Server/src/routes/actividades.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server/src/routes/asignacionactividades.js" beforeDir="false" afterPath="$PROJECT_DIR$/Server/src/routes/asignacionactividades.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server/src/routes/asignacioncurso.js" beforeDir="false" afterPath="$PROJECT_DIR$/Server/src/routes/asignacioncurso.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server/src/routes/coffebreak.js" beforeDir="false" afterPath="$PROJECT_DIR$/Server/src/routes/coffebreak.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server/src/routes/comentarios.js" beforeDir="false" afterPath="$PROJECT_DIR$/Server/src/routes/comentarios.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server/src/routes/contactos.js" beforeDir="false" afterPath="$PROJECT_DIR$/Server/src/routes/contactos.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server/src/routes/cursos.js" beforeDir="false" afterPath="$PROJECT_DIR$/Server/src/routes/cursos.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server/src/routes/dashboard.js" beforeDir="false" afterPath="$PROJECT_DIR$/Server/src/routes/dashboard.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server/src/routes/gastoseingresos.js" beforeDir="false" afterPath="$PROJECT_DIR$/Server/src/routes/gastoseingresos.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server/src/routes/mensajes.js" beforeDir="false" afterPath="$PROJECT_DIR$/Server/src/routes/mensajes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server/src/routes/noticias.js" beforeDir="false" afterPath="$PROJECT_DIR$/Server/src/routes/noticias.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server/src/routes/peticionmensaje.js" beforeDir="false" afterPath="$PROJECT_DIR$/Server/src/routes/peticionmensaje.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server/src/routes/productos.js" beforeDir="false" afterPath="$PROJECT_DIR$/Server/src/routes/productos.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server/src/routes/usuarios.js" beforeDir="false" afterPath="$PROJECT_DIR$/Server/src/routes/usuarios.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server/src/routes/variables.js" beforeDir="false" afterPath="$PROJECT_DIR$/Server/src/routes/variables.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server/src/routes/variablesglobales.js" beforeDir="false" afterPath="$PROJECT_DIR$/Server/src/routes/variablesglobales.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Documentacion/Actividades GestiÃ³n.dia.autosave" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Documentacion/Actividades Gestión.dia" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Documentacion/Actividades Gestión.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Documentacion/Actividades Ingreso.dia" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Documentacion/Actividades Ingreso.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Documentacion/Actividades Noticias.dia" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Documentacion/Actividades Noticias.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Documentacion/Actividades Reportes.dia" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Documentacion/Actividades Reportes.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Documentacion/Casos De Usos  Expandidos.dia" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Documentacion/Casos De Usos  Expandidos.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Documentacion/Casos De Usos De Alto Nivel.dia" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Documentacion/Casos De Usos De Alto Nivel.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Documentacion/Diagrama De Clases.dia" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Documentacion/Diagrama De Clases.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Documentacion/Estados Gestion.dia" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Documentacion/Estados Gestion.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Documentacion/Estados Ingreso.dia" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Documentacion/Estados Ingreso.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Documentacion/Estados Noticias.dia" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Documentacion/Estados Noticias.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Documentacion/Estados Reportes.dia" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Documentacion/Estados Reportes.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Documentacion/Proyecto_IPC2_F2_201801628.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Documentacion/Proyecto_IPC2_F2_201801628.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Documentacion/Secuencias GestiÃ³n.dia.autosave" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Documentacion/Secuencias Gestión.dia" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Documentacion/Secuencias Gestión.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Documentacion/Secuencias Ingreso.dia" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Documentacion/Secuencias Ingreso.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Documentacion/Secuencias Noticias.dia" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Documentacion/Secuencias Noticias.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Documentacion/Secuencias Reportes.dia" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Documentacion/Secuencias Reportes.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plantillas Carga Masiva/productos.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Plantillas Carga Masiva/productos.csv" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -45,30 +58,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/registroscoffe.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="717">
+            <state relative-caret-position="2046">
               <caret line="97" column="47" selection-start-line="97" selection-start-column="47" selection-end-line="97" selection-end-column="47" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
-                <element signature="e#3524#3944#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Server/DB/coffebreak.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="198">
-              <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Server/src/routes/coffebreak.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="461">
-              <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+              <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -76,7 +79,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/productosges.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
+            <state relative-caret-position="2002">
               <caret line="104" column="8" selection-start-line="104" selection-start-column="8" selection-end-line="119" selection-end-column="15" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
@@ -90,7 +93,7 @@
         <entry file="file://$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/registrocoffe.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="198">
-              <caret line="9" column="11" lean-forward="true" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
+              <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -196,68 +199,34 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="Proyecto_IPC2_F3_201810628" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Proyecto_IPC2_F3_201810628" type="462c0819:PsiDirectoryNode" />
+              <item name="Proyecto_IPC2_F3_201801628" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Proyecto_IPC2_F3_201801628" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Proyecto_IPC2_F3_201810628" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Proyecto_IPC2_F3_201810628" type="462c0819:PsiDirectoryNode" />
+              <item name="Proyecto_IPC2_F3_201801628" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Proyecto_IPC2_F3_201801628" type="462c0819:PsiDirectoryNode" />
               <item name="Aplicacion" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Proyecto_IPC2_F3_201810628" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Proyecto_IPC2_F3_201810628" type="462c0819:PsiDirectoryNode" />
-              <item name="Aplicacion" type="462c0819:PsiDirectoryNode" />
-              <item name="segusaccg" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Proyecto_IPC2_F3_201810628" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Proyecto_IPC2_F3_201810628" type="462c0819:PsiDirectoryNode" />
-              <item name="Aplicacion" type="462c0819:PsiDirectoryNode" />
-              <item name="segusaccg" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Proyecto_IPC2_F3_201810628" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Proyecto_IPC2_F3_201810628" type="462c0819:PsiDirectoryNode" />
-              <item name="Aplicacion" type="462c0819:PsiDirectoryNode" />
-              <item name="segusaccg" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Componentes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Proyecto_IPC2_F3_201810628" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Proyecto_IPC2_F3_201810628" type="462c0819:PsiDirectoryNode" />
+              <item name="Proyecto_IPC2_F3_201801628" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Proyecto_IPC2_F3_201801628" type="462c0819:PsiDirectoryNode" />
               <item name="Server" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Proyecto_IPC2_F3_201810628" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Proyecto_IPC2_F3_201810628" type="462c0819:PsiDirectoryNode" />
+              <item name="Proyecto_IPC2_F3_201801628" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Proyecto_IPC2_F3_201801628" type="462c0819:PsiDirectoryNode" />
               <item name="Server" type="462c0819:PsiDirectoryNode" />
               <item name="DB" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Proyecto_IPC2_F3_201810628" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Proyecto_IPC2_F3_201810628" type="462c0819:PsiDirectoryNode" />
-              <item name="Server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Proyecto_IPC2_F3_201810628" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Proyecto_IPC2_F3_201810628" type="462c0819:PsiDirectoryNode" />
-              <item name="Server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="routes" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -323,11 +292,12 @@
       <workItem from="1578145466995" duration="27536000" />
       <workItem from="1578234607605" duration="14130000" />
       <workItem from="1578259268356" duration="14773000" />
+      <workItem from="1578282905929" duration="1339000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="502028000" />
+    <option name="totallyTimeSpent" value="503367000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -340,6 +310,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1376" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49918166" visible="true" weight="0.21150972" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -563,9 +534,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Server/DB/coffebreak.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Server/DB/coffebreak.css" />
     <entry file="file://$PROJECT_DIR$/Server/DB/gastoseingresos.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -646,30 +615,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/registrocoffe.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="11" lean-forward="true" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/registrous.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
           <caret line="45" column="27" lean-forward="true" selection-start-line="39" selection-start-column="19" selection-end-line="45" selection-end-column="27" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/productosges.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="104" column="8" selection-start-line="104" selection-start-column="8" selection-end-line="119" selection-end-column="15" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-            <element signature="n#!!block;n#clearData#0;n#gestionarus#0" />
           </folding>
         </state>
       </provider>
@@ -787,26 +738,43 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/registroscoffe.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="717">
+        <state relative-caret-position="2046">
           <caret line="97" column="47" selection-start-line="97" selection-start-column="47" selection-end-line="97" selection-end-column="47" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
-            <element signature="e#3524#3944#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/productosges.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2002">
+          <caret line="104" column="8" selection-start-line="104" selection-start-column="8" selection-end-line="119" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+            <element signature="n#!!block;n#clearData#0;n#gestionarus#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/registrocoffe.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Server/src/routes/coffebreak.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-440">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Server/DB/coffebreak.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
-          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Server/src/routes/coffebreak.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="461">
-          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
         </state>
       </provider>
     </entry>
