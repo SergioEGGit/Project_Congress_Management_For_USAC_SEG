@@ -5,14 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e784a9b0-6102-46ed-9fad-1a4ca0e0f080" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/navbar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/registroscoffe.js" beforeDir="false" afterPath="$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/registroscoffe.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/appmovil/screens/Login.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Server/DB/coffebreak.json" beforeDir="false" afterPath="$PROJECT_DIR$/Server/DB/coffebreak.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server/DB/mensajes.json" beforeDir="false" afterPath="$PROJECT_DIR$/Server/DB/mensajes.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server/DB/productos.json" beforeDir="false" afterPath="$PROJECT_DIR$/Server/DB/productos.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server/DB/variables.json" beforeDir="false" afterPath="$PROJECT_DIR$/Server/DB/variables.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -28,27 +22,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/registroscoffe.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-352">
-              <caret line="77" column="48" selection-start-line="77" selection-start-column="48" selection-end-line="77" selection-end-column="48" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-                <element signature="e#4314#5009#0" />
-                <element signature="e#5077#5771#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/cargamasiva.js">
+        <entry file="file://$PROJECT_DIR$/Server/DB/coffebreak.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="176">
+              <caret line="8" column="2" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -127,10 +105,10 @@
         <option value="$PROJECT_DIR$/Server/src/routes/usuarios.js" />
         <option value="$PROJECT_DIR$/Server/src/routes/variables.js" />
         <option value="$PROJECT_DIR$/Server/src/routes/variablesglobales.js" />
-        <option value="$PROJECT_DIR$/Server/DB/coffebreak.json" />
         <option value="$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/registroscoffe.js" />
         <option value="$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/navbar.js" />
         <option value="$PROJECT_DIR$/Server/DB/mensajes.json" />
+        <option value="$PROJECT_DIR$/Server/DB/coffebreak.json" />
       </list>
     </option>
   </component>
@@ -140,7 +118,7 @@
     <other-services-enabled>true</other-services-enabled>
     <auto-save>true</auto-save>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="92" />
     <option name="y" value="51" />
     <option name="width" value="1083" />
@@ -171,21 +149,6 @@
               <item name="Proyecto_IPC2_F3_201801628" type="462c0819:PsiDirectoryNode" />
               <item name="Aplicacion" type="462c0819:PsiDirectoryNode" />
               <item name="segusaccg" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Proyecto_IPC2_F3_201801628" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Proyecto_IPC2_F3_201801628" type="462c0819:PsiDirectoryNode" />
-              <item name="Aplicacion" type="462c0819:PsiDirectoryNode" />
-              <item name="segusaccg" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Proyecto_IPC2_F3_201801628" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Proyecto_IPC2_F3_201801628" type="462c0819:PsiDirectoryNode" />
-              <item name="Aplicacion" type="462c0819:PsiDirectoryNode" />
-              <item name="segusaccg" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Componentes" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Proyecto_IPC2_F3_201801628" type="b2602c69:ProjectViewProjectNode" />
@@ -268,12 +231,12 @@
       <workItem from="1578145466995" duration="27536000" />
       <workItem from="1578234607605" duration="14130000" />
       <workItem from="1578259268356" duration="14773000" />
-      <workItem from="1578282905929" duration="3561000" />
+      <workItem from="1578282905929" duration="4154000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="505589000" />
+    <option name="totallyTimeSpent" value="506182000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -521,13 +484,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Server/DB/dashboard.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/controlasistencia.css">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -705,13 +661,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Server/DB/coffebreak.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="204" lean-forward="true" selection-start-column="204" selection-end-column="204" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/navbar.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-3793">
@@ -729,6 +678,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/cargamasiva.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1122">
+          <caret line="18" column="10" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/registroscoffe.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-352">
@@ -741,12 +700,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/cargamasiva.js">
+    <entry file="file://$PROJECT_DIR$/Server/DB/dashboard.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="198">
+          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Server/DB/coffebreak.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="2" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
         </state>
       </provider>
     </entry>
