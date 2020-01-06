@@ -5,96 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e784a9b0-6102-46ed-9fad-1a4ca0e0f080" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/asignaractividades.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/busquedacontactos.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/busquedacontactos.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/comentar.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/comentar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/controlasistencia.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/controlasistencia.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/dashboard.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/denunciascomentarios.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/denunciascomentarios.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/mensajes.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/mensajes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/mensajesca.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/mensajesca.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/mensajeses.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/navbar.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/peticionmensaje.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/puntuacionactividades.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/puntuacionactividadesadmin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/reportes.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/reportes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/reportescate.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/reportescate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Server/DB/asignacionactividad.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Server/DB/comentario.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Server/DB/dashboard.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Server/DB/mensajes.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Server/DB/peticionmensaje.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Server/DB/variablesglobales.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Server/src/routes/asignacionactividades.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Server/src/routes/comentarios.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Server/src/routes/dashboard.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Server/src/routes/mensajes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Server/src/routes/peticionmensaje.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Server/src/routes/variablesglobales.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/registrocoffe.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/registroscoffe.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/DB/coffebreak.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/routes/coffebreak.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Proyecto_IPC2_F2_201801628/Server/DB/dashboard.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Proyecto_IPC2_F2_201801628/Server/DB/dashboard.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Proyecto_IPC2_F2_201801628/Server/DB/variables.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Proyecto_IPC2_F2_201801628/Server/DB/variables.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Aplicacion/segusaccg/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Aplicacion/segusaccg/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Aplicacion/segusaccg/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Aplicacion/segusaccg/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/actividades.css" beforeDir="false" afterPath="$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/actividades.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/actividades.js" beforeDir="false" afterPath="$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/actividades.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/actividadesges.js" beforeDir="false" afterPath="$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/actividadesges.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/asignacioncontactos.js" beforeDir="false" afterPath="$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/asignacioncontactos.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/asignacioncursoca.js" beforeDir="false" afterPath="$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/asignacioncursoca.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/asignarcursoses.css" beforeDir="false" afterPath="$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/asignarcursoses.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/asignarcursoses.js" beforeDir="false" afterPath="$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/asignarcursoses.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/cargamasiva.css" beforeDir="false" afterPath="$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/cargamasiva.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/cargamasiva.js" beforeDir="false" afterPath="$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/cargamasiva.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/contactos.js" beforeDir="false" afterPath="$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/contactos.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/contactosges.css" beforeDir="false" afterPath="$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/contactosges.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/contactosges.js" beforeDir="false" afterPath="$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/contactosges.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/cursos.js" beforeDir="false" afterPath="$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/cursos.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/cursosges.js" beforeDir="false" afterPath="$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/cursosges.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/gastoseingresos.css" beforeDir="false" afterPath="$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/gastoseingresos.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/gastoseingresos.js" beforeDir="false" afterPath="$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/gastoseingresos.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/gastoseingresosges.js" beforeDir="false" afterPath="$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/gastoseingresosges.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/gestionarus.js" beforeDir="false" afterPath="$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/gestionarus.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/home.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/home.js" beforeDir="false" afterPath="$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/dashboard.js" beforeDir="false" afterPath="$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/dashboard.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/login.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/navbar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/noticias.js" beforeDir="false" afterPath="$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/noticias.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/noticiasges.js" beforeDir="false" afterPath="$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/noticiasges.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/perfil.css" beforeDir="false" afterPath="$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/perfil.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/perfil.js" beforeDir="false" afterPath="$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/perfil.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/productos.css" beforeDir="false" afterPath="$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/productos.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/productos.js" beforeDir="false" afterPath="$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/productos.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/productosges.js" beforeDir="false" afterPath="$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/productosges.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/registrologin.js" beforeDir="false" afterPath="$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/registrologin.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/registrous.js" beforeDir="false" afterPath="$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/registrous.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Documentacion/Proyecto_IPC2_F2_201801628.docx" beforeDir="false" afterPath="$PROJECT_DIR$/Documentacion/Proyecto_IPC2_F2_201801628.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Documentacion/Proyecto_IPC2_F2_201801628.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Documentacion/Proyecto_IPC2_F2_201801628.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Documentacion/~$oyecto_IPC2_F2_201801628.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server/DB/actividades.json" beforeDir="false" afterPath="$PROJECT_DIR$/Server/DB/actividades.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server/DB/asignacioncurso.json" beforeDir="false" afterPath="$PROJECT_DIR$/Server/DB/asignacioncurso.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server/DB/contactos.json" beforeDir="false" afterPath="$PROJECT_DIR$/Server/DB/contactos.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server/DB/cursos.json" beforeDir="false" afterPath="$PROJECT_DIR$/Server/DB/cursos.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server/DB/gastoseingresos.json" beforeDir="false" afterPath="$PROJECT_DIR$/Server/DB/gastoseingresos.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server/DB/noticias.json" beforeDir="false" afterPath="$PROJECT_DIR$/Server/DB/noticias.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server/DB/productos.json" beforeDir="false" afterPath="$PROJECT_DIR$/Server/DB/productos.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server/DB/usuarios.json" beforeDir="false" afterPath="$PROJECT_DIR$/Server/DB/usuarios.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/DB/dashboard.json" beforeDir="false" afterPath="$PROJECT_DIR$/Server/DB/dashboard.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Server/DB/variables.json" beforeDir="false" afterPath="$PROJECT_DIR$/Server/DB/variables.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/Server/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server/src/routes/actividades.js" beforeDir="false" afterPath="$PROJECT_DIR$/Server/src/routes/actividades.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server/src/routes/asignacioncurso.js" beforeDir="false" afterPath="$PROJECT_DIR$/Server/src/routes/asignacioncurso.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server/src/routes/contactos.js" beforeDir="false" afterPath="$PROJECT_DIR$/Server/src/routes/contactos.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server/src/routes/cursos.js" beforeDir="false" afterPath="$PROJECT_DIR$/Server/src/routes/cursos.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server/src/routes/gastoseingresos.js" beforeDir="false" afterPath="$PROJECT_DIR$/Server/src/routes/gastoseingresos.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server/src/routes/noticias.js" beforeDir="false" afterPath="$PROJECT_DIR$/Server/src/routes/noticias.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server/src/routes/productos.js" beforeDir="false" afterPath="$PROJECT_DIR$/Server/src/routes/productos.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server/src/routes/usuarios.js" beforeDir="false" afterPath="$PROJECT_DIR$/Server/src/routes/usuarios.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/src/routes/dashboard.js" beforeDir="false" afterPath="$PROJECT_DIR$/Server/src/routes/dashboard.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Server/src/routes/variables.js" beforeDir="false" afterPath="$PROJECT_DIR$/Server/src/routes/variables.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -112,13 +35,22 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/dashboard.js">
+        <entry file="file://$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/registroscoffe.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="73" column="14" lean-forward="true" selection-start-line="73" selection-start-column="14" selection-end-line="73" selection-end-column="14" />
+            <state relative-caret-position="198">
+              <caret line="63" column="25" lean-forward="true" selection-start-line="63" selection-start-column="25" selection-end-line="63" selection-end-column="25" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/registrocoffe.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="242">
+              <caret line="11" column="15" lean-forward="true" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -150,11 +82,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Server/src/routes/gastoseingresos.js" />
-        <option value="$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/gastoseingresos.css" />
-        <option value="$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/gastoseingresos.js" />
-        <option value="$PROJECT_DIR$/Server/DB/cursos.json" />
-        <option value="$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/reportescate.css" />
         <option value="$PROJECT_DIR$/Server/DB/noticias.json" />
         <option value="$PROJECT_DIR$/Server/DB/variablesglobales.json" />
         <option value="$PROJECT_DIR$/Server/src/routes/variablesglobales.js" />
@@ -177,15 +104,12 @@
         <option value="$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/actividades.css" />
         <option value="$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/actividadesges.js" />
         <option value="$PROJECT_DIR$/Server/src/routes/actividades.js" />
-        <option value="$PROJECT_DIR$/Server/DB/variables.json" />
         <option value="$PROJECT_DIR$/Aplicacion/segusaccg/src/index.css" />
         <option value="$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/puntuacionactividadesadmin.js" />
         <option value="$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/reportes.css" />
         <option value="$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/actividades.js" />
         <option value="$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/reportes.js" />
-        <option value="$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/login.js" />
         <option value="$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/controlasistencia.css" />
-        <option value="$PROJECT_DIR$/Server/src/routes/variables.js" />
         <option value="$PROJECT_DIR$/Server/src/routes/asignacionactividades.js" />
         <option value="$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/asignaractividades.js" />
         <option value="$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/puntuacionactividades.js" />
@@ -195,12 +119,20 @@
         <option value="$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/home.css" />
         <option value="$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/home.js" />
         <option value="$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/navbar.css" />
-        <option value="$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/navbar.js" />
         <option value="$PROJECT_DIR$/Server/DB/dashboard.css" />
         <option value="$PROJECT_DIR$/Server/src/index.js" />
-        <option value="$PROJECT_DIR$/Server/src/routes/dashboard.js" />
         <option value="$PROJECT_DIR$/Server/DB/dashboard.json" />
+        <option value="$PROJECT_DIR$/Server/src/routes/variables.js" />
+        <option value="$PROJECT_DIR$/Server/DB/variables.json" />
+        <option value="$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/navbar.js" />
+        <option value="$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/login.js" />
+        <option value="$PROJECT_DIR$/Server/DB/coffebreak.css" />
         <option value="$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/dashboard.js" />
+        <option value="$PROJECT_DIR$/Server/src/routes/dashboard.js" />
+        <option value="$PROJECT_DIR$/Server/DB/coffebreak.json" />
+        <option value="$PROJECT_DIR$/Server/src/routes/coffebreak.js" />
+        <option value="$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/registroscoffe.js" />
+        <option value="$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/registrocoffe.css" />
       </list>
     </option>
   </component>
@@ -224,49 +156,68 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="Proyecto_IPC2_F2_201801628" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Proyecto_IPC2_F2_201801628" type="462c0819:PsiDirectoryNode" />
+              <item name="Proyecto_IPC2_F3_201810628" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Proyecto_IPC2_F3_201810628" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Proyecto_IPC2_F2_201801628" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Proyecto_IPC2_F2_201801628" type="462c0819:PsiDirectoryNode" />
+              <item name="Proyecto_IPC2_F3_201810628" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Proyecto_IPC2_F3_201810628" type="462c0819:PsiDirectoryNode" />
               <item name="Aplicacion" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Proyecto_IPC2_F2_201801628" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Proyecto_IPC2_F2_201801628" type="462c0819:PsiDirectoryNode" />
+              <item name="Proyecto_IPC2_F3_201810628" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Proyecto_IPC2_F3_201810628" type="462c0819:PsiDirectoryNode" />
               <item name="Aplicacion" type="462c0819:PsiDirectoryNode" />
               <item name="segusaccg" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Proyecto_IPC2_F2_201801628" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Proyecto_IPC2_F2_201801628" type="462c0819:PsiDirectoryNode" />
+              <item name="Proyecto_IPC2_F3_201810628" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Proyecto_IPC2_F3_201810628" type="462c0819:PsiDirectoryNode" />
               <item name="Aplicacion" type="462c0819:PsiDirectoryNode" />
               <item name="segusaccg" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Proyecto_IPC2_F2_201801628" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Proyecto_IPC2_F2_201801628" type="462c0819:PsiDirectoryNode" />
+              <item name="Proyecto_IPC2_F3_201810628" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Proyecto_IPC2_F3_201810628" type="462c0819:PsiDirectoryNode" />
               <item name="Aplicacion" type="462c0819:PsiDirectoryNode" />
               <item name="segusaccg" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Componentes" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Proyecto_IPC2_F2_201801628" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Proyecto_IPC2_F2_201801628" type="462c0819:PsiDirectoryNode" />
+              <item name="Proyecto_IPC2_F3_201810628" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Proyecto_IPC2_F3_201810628" type="462c0819:PsiDirectoryNode" />
               <item name="Server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Proyecto_IPC2_F3_201810628" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Proyecto_IPC2_F3_201810628" type="462c0819:PsiDirectoryNode" />
+              <item name="Server" type="462c0819:PsiDirectoryNode" />
+              <item name="DB" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Proyecto_IPC2_F3_201810628" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Proyecto_IPC2_F3_201810628" type="462c0819:PsiDirectoryNode" />
+              <item name="Server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Proyecto_IPC2_F3_201810628" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Proyecto_IPC2_F3_201810628" type="462c0819:PsiDirectoryNode" />
+              <item name="Server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="routes" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -331,11 +282,12 @@
       <workItem from="1578058683292" duration="40675000" />
       <workItem from="1578145466995" duration="27536000" />
       <workItem from="1578234607605" duration="14130000" />
+      <workItem from="1578259268356" duration="9834000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="487255000" />
+    <option name="totallyTimeSpent" value="497089000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -348,6 +300,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1376" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49918166" visible="true" weight="0.21150972" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -441,107 +394,10 @@
     </option>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/mensajesca.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Server/src/routes/asignacioncurso.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="18" column="9" lean-forward="true" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Server/src/routes/productos.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="45" selection-start-line="45" selection-end-line="67" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/actividadesges.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="188" column="20" lean-forward="true" selection-start-line="188" selection-start-column="20" selection-end-line="220" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/noticias.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="110" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/puntuacionactividadesadmin.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-110">
-          <caret line="61" column="55" selection-start-line="61" selection-start-column="55" selection-end-line="61" selection-end-column="55" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/reportes.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="50" column="15" lean-forward="true" selection-start-line="50" selection-start-column="15" selection-end-line="50" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/noticiasges.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-594">
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/actividades.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="366">
-          <caret line="76" column="27" lean-forward="true" selection-start-line="76" selection-start-column="27" selection-end-line="76" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/login.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="253" lean-forward="true" selection-start-line="253" selection-end-line="253" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/asignarcursoses.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="157" selection-end-column="32" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/asignarcursoses.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="38" column="4" lean-forward="true" selection-start-line="38" selection-start-column="4" selection-end-line="42" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/controlasistencia.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -607,20 +463,6 @@
     <entry file="file://$PROJECT_DIR$/Server/DB/mensajes.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Server/DB/variables.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="475" selection-start-column="475" selection-end-column="475" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Server/src/routes/variables.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1144">
-          <caret line="52" column="53" selection-start-line="52" selection-start-column="53" selection-end-line="52" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/asignaractividades.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="417">
@@ -635,16 +477,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="35">
           <caret line="87" column="48" lean-forward="true" selection-start-line="87" selection-start-column="48" selection-end-line="121" selection-end-column="55" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/controlasistencia.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="87" column="39" lean-forward="true" selection-start-line="87" selection-start-column="39" selection-end-line="87" selection-end-column="39" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
@@ -697,27 +529,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/home.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="220" column="18" lean-forward="true" selection-start-line="220" selection-start-column="18" selection-end-line="220" selection-end-column="18" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/navbar.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
           <caret line="2" column="1" lean-forward="true" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/navbar.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3828">
-          <caret line="12" column="38" lean-forward="true" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
         </state>
       </provider>
     </entry>
@@ -759,9 +574,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Server/src/routes/noticias.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Server/src/routes/mensajes.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -779,13 +591,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Server/DB/dashboard.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Server/DB/dashboard.css" />
     <entry file="file://$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/contactosges.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="167">
@@ -813,24 +619,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Server/src/routes/dashboard.js">
+    <entry file="file://$PROJECT_DIR$/Server/src/routes/noticias.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="30" column="29" lean-forward="true" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Server/DB/dashboard.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="38" lean-forward="true" selection-start-column="38" selection-end-column="38" />
+        <state relative-caret-position="110">
+          <caret line="59" selection-start-line="59" selection-end-line="72" selection-end-column="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/productosges.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="365">
-          <caret line="94" column="5" lean-forward="true" selection-start-line="63" selection-start-column="4" selection-end-line="94" selection-end-column="5" />
+        <state relative-caret-position="-757">
+          <caret line="64" column="24" selection-start-line="64" selection-start-column="21" selection-end-line="64" selection-end-column="24" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
             <element signature="n#!!block;n#clearData#0;n#gestionarus#0" />
@@ -838,10 +637,148 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/controlasistencia.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="186" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Server/DB/variables.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="523" selection-start-column="523" selection-end-column="523" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/navbar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="44" column="41" selection-start-line="44" selection-start-column="41" selection-end-line="44" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3345">
+          <caret line="43" column="25" selection-start-line="43" selection-start-column="25" selection-end-line="43" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Server/DB/coffebreak.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Server/DB/gastoseingresos.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/home.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3050">
+          <caret line="220" column="18" lean-forward="true" selection-start-line="220" selection-start-column="18" selection-end-line="220" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/inventario.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-858">
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/dashboard.js">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1029">
+          <caret line="224" column="164" selection-start-line="224" selection-start-column="164" selection-end-line="224" selection-end-column="164" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+            <element signature="n#!!block;n#agregarcolumnas#0;n#dashboard#0" />
+            <element signature="n#!!block;n#modificarcolumna#0;n#dashboard#0" />
+            <element signature="n#!!block;n#eliminarcolumna#0;n#dashboard#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Server/DB/cursos.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="19" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Server/src/routes/dashboard.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1430">
+          <caret line="65" column="111" selection-start-line="65" selection-start-column="111" selection-end-line="65" selection-end-column="111" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Server/DB/dashboard.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Server/src/routes/comentarios.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Server/src/routes/variables.js">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="352">
-          <caret line="73" column="14" lean-forward="true" selection-start-line="73" selection-start-column="14" selection-end-line="73" selection-end-column="14" />
+          <caret line="55" column="13" lean-forward="true" selection-start-line="55" selection-start-column="13" selection-end-line="55" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Server/src/routes/productos.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="84" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Server/DB/coffebreak.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Server/src/routes/coffebreak.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="71" column="40" lean-forward="true" selection-start-line="71" selection-start-column="40" selection-end-line="71" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/controlasistencia.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="14" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/registrocoffe.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="15" lean-forward="true" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/registroscoffe.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="63" column="25" lean-forward="true" selection-start-line="63" selection-start-column="25" selection-end-line="63" selection-end-column="25" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>

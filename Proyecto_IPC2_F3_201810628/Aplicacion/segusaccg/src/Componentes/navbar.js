@@ -38,11 +38,12 @@ import Comentar from "./comentar";
 import Denunciascomentarios from "./denunciascomentarios";
 import Puntuacionactividades from "./puntuacionactividades";
 import Puntuacionactividadesadmin from "./puntuacionactividadesadmin";
-import { FiLogIn, FiLogOut } from 'react-icons/fi';
 import Dashboard from "./dashboard";
+import Registrocoffe from "./registroscoffe";
+import { FiLogIn, FiLogOut } from 'react-icons/fi';
 import { TiHomeOutline, TiDocumentAdd } from 'react-icons/ti';
-import { GiLadder, GiTeacher } from 'react-icons/gi';
-import { MdImportContacts, MdCancel, MdAssignmentTurnedIn} from 'react-icons/md';
+import { GiLadder, GiTeacher, GiCoffeeCup } from 'react-icons/gi';
+import { MdImportContacts, MdDashboard,  MdCancel, MdAssignmentTurnedIn} from 'react-icons/md';
 import { FaUserPlus,FaCheck, FaUser, FaFileInvoiceDollar, FaBook, FaBookReader, FaChalkboardTeacher, FaRegNewspaper, FaSellcast, FaTasks } from 'react-icons/fa';
 import { IoMdContact, IoIosContacts } from 'react-icons/io';
 import { GoRepo } from 'react-icons/go';
@@ -120,7 +121,8 @@ class navbar extends Component {
             P_AsignacionAct: true,
             P_Denuncias: true,
             P_Puntuacion: true,
-            P_ControlAsi: true
+            P_ControlAsi: true,
+            P_Dashboard: true
         })
             .then(response => {
                 console.log(response)
@@ -272,6 +274,14 @@ class navbar extends Component {
                                         Control Asistencia
                                     </NavText>
                                 </NavItem>
+                                <NavItem hidden={variables.P_Coffe} eventKey="registrocoffe">
+                                    <NavIcon>
+                                        <GiCoffeeCup  id="icon"/>
+                                    </NavIcon>
+                                    <NavText id="tex">
+                                        Control Coffe Break
+                                    </NavText>
+                                </NavItem>
                                 <NavItem hidden={variables.P_Denuncias} eventKey="denuncias">
                                     <NavIcon>
                                         <MdCancel  id="icon"/>
@@ -310,6 +320,14 @@ class navbar extends Component {
                                     </NavIcon>
                                     <NavText id="tex">
                                         Inventario
+                                    </NavText>
+                                </NavItem>
+                                <NavItem hidden={variables.P_Dashboard} eventKey="dashboard">
+                                    <NavIcon>
+                                        <MdDashboard id="icon"/>
+                                    </NavIcon>
+                                    <NavText id="tex">
+                                        Dashboard
                                     </NavText>
                                 </NavItem>
                                 <NavItem hidden={variables.P_AsignacionCo} eventKey="asignacioncontactos">
@@ -403,6 +421,7 @@ class navbar extends Component {
                             <Route path="/puntuacionadmin" component={props => <Puntuacionactividadesadmin />} />
                             <Route path="/controlasi" component={props => <Controlasistencia />} />
                             <Route path="/dashboard" component={props => <Dashboard />} />
+                            <Route path="/registrocoffe" component={props => <Registrocoffe />} />
                         </main>
                     </React.Fragment>
                 )}/>

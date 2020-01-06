@@ -40,6 +40,8 @@ class login extends Component {
             P_Denuncias: true,
             P_Puntuacion: true,
             P_ControlAsi: true,
+            P_Dashboard: true,
+            P_Coffe: true
         };
 
         this.handleOnchangeU = this.handleOnchangeU.bind(this);
@@ -99,6 +101,8 @@ class login extends Component {
         var Denuncias = this.state.P_Denuncias;
         var Puntuacion = this.state.P_Puntuacion;
         var ControlAsi = this.state.P_ControlAsi;
+        var Dashboard = this.state.P_Dashboard;
+        var Coffe = this.state.P_Coffe;
 
         if(usuarios.us === user) {
             if(usuarios.pass === pass) {
@@ -130,6 +134,8 @@ class login extends Component {
                     Denuncias = false;
                     Puntuacion = false;
                     ControlAsi = false;
+                    Dashboard = false;
+                    Coffe = false;
                 }
                 if(usuarios.tipo === "Colaborador") {
                     Login = true;
@@ -154,6 +160,8 @@ class login extends Component {
                     Denuncias = true;
                     Puntuacion = false;
                     ControlAsi = false;
+                    Dashboard = false;
+                    Coffe = false;
                 }
                 if(usuarios.tipo === "Catedratico") {
                     Login = true;
@@ -178,6 +186,8 @@ class login extends Component {
                     Denuncias = true;
                     Puntuacion = true;
                     ControlAsi = true;
+                    Dashboard = true;
+                    Coffe = true;
                 }
                 if(usuarios.tipo === "Estudiante") {
                     Login = true;
@@ -202,6 +212,8 @@ class login extends Component {
                     Denuncias = true;
                     Puntuacion = false;
                     ControlAsi = true;
+                    Dashboard = false;
+                    Coffe = true;
                 }
                 axios.put('http://localhost:4000/api/variables/1', {
                     id_miembro: id,
@@ -229,7 +241,9 @@ class login extends Component {
                     P_AsignacionAct: AsignacionAct,
                     P_Denuncias: Denuncias,
                     P_Puntuacion: Puntuacion,
-                    P_ControlAsi: ControlAsi
+                    P_ControlAsi: ControlAsi,
+                    P_Dashboard: Dashboard,
+                    P_Coffe: Coffe
                 })
                     .then(response => {
                         console.log(response)

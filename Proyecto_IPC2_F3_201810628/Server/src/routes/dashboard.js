@@ -53,5 +53,20 @@ router.put('/:id', (req, res) => {
     }
 });
 
+router.delete('/:id', (req, res) => {
+    const {id} = req.params;
+    if (id) {
+        _.each(dashboards, (dashboard, i) => {
+            if (dashboard.id === id) {
+                dashboards.splice(i, 1);
+            }
+        });
+        res.json(dashboards);
+        let data = JSON.stringify(dashboards);
+        fs.writeFileSync('C:\\ProyectoSergioEG201801628\\Proyecto_IPC2_F2_201801628\\Server\\DB\\dashboard.json', data)
+    }
+
+});
+
 
 module.exports = router;
