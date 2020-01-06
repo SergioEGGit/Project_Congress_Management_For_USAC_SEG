@@ -62,13 +62,66 @@ class registrocoffe extends Component {
             event.stopImmediatePropagation();
             let nombre = $(this).find('td:eq( 3 )').html();
             let fechaactual = moment().format('YYYY-MM-DD');
+            let id = _this.state.id_insumo;
+            console.log(id);
             axios.get('http://localhost:4000/api/coffebreak')
                 .then(response => {
                      const arreglo = response.data.filter(d => d.estudiante === nombre);
                      if(arreglo.length > 0) {
-                         alert("Verificar Fecha");
+                         if(_this.state.tipo_insumo === "Coffe Break") {
+                             if(arreglo[0].coffe === "1") {
+                                 let cantidad = parseInt(_this.state.cantidad_insumo) - 1;
+                                 axios.put(`http://localhost:4000/api/coffebreak/${arreglo[0].id}`, {
+                                     fecha_entrega: fechaactual,
+                                     estudiante: nombre,
+                                     coffe: "2",
+                                     insumo: "",
+                                     almuerzo: ""
+                                 })
+                                     .then(response => {
+                                         console.log(response);
+                                     })
+                                     .catch(error => {
+                                         console.log(error.response)
+                                     });
+                                 axios.get('http://localhost:4000/api/productos')
+                                     .then(response => {
+                                         const arreglo = response.data.filter(d => d.id === _this.state.id_insumo);
+                                         axios.put(`http://localhost:4000/api/productos/${id}`, {
+                                             codigo: arreglo[0].codigo,
+                                             nombre: arreglo[0].nombre,
+                                             descripcion: arreglo[0].descripcion,
+                                             cantidad: cantidad,
+                                             encargado: arreglo[0].encargado,
+                                             ubicacion: arreglo[0].ubicacion,
+                                             estado: arreglo[0].estado,
+                                             tipo: arreglo[0].tipo
+                                         })
+                                             .then(response => {
+                                                 console.log(response);
+                                                 alert("Producto Entregado Con Exito");
+                                             })
+                                             .catch(error => {
+                                                 console.log(error.response)
+                                             });
+                                     })
+                                     .catch(error => {
+                                         console.log(error)
+                                     })
+                             }
+                             if(arreglo[0].coffe === "2") {
+                                 alert("El Estudiante Ya Ha Resivido Sus Dos Coffe Breaks")
+                             }
+                         }
+                         if(_this.state.tipo_insumo === "Almuerzo") {
+                             alert("El Estudiante Ya Ha Resivido Su Almuerzo");
+                         }
+                         if(_this.state.tipo_insumo === "Insumo") {
+                             alert("El Estudiante Ya Ha Resivido Su Insumo");
+                         }
                      } else {
                           let cantidad = parseInt(_this.state.cantidad_insumo) - 1;
+                          console.log(cantidad);
                           if(_this.state.tipo_insumo === "Coffe Break") {
                               axios.post('http://localhost:4000/api/coffebreak', {
                                   fecha_entrega: fechaactual,
@@ -79,7 +132,14 @@ class registrocoffe extends Component {
                               })
                                   .then(response => {
                                       console.log(response);
-                                      /*axios.put(`http://localhost:4000/api/productos/${_this.state.id_insumo}`, {
+                                  })
+                                  .catch(error => {
+                                      console.log(error.response)
+                                  });
+                              axios.get('http://localhost:4000/api/productos')
+                                  .then(response => {
+                                      const arreglo = response.data.filter(d => d.id === _this.state.id_insumo);
+                                      axios.put(`http://localhost:4000/api/productos/${id}`, {
                                           codigo: arreglo[0].codigo,
                                           nombre: arreglo[0].nombre,
                                           descripcion: arreglo[0].descripcion,
@@ -95,29 +155,13 @@ class registrocoffe extends Component {
                                           })
                                           .catch(error => {
                                               console.log(error.response)
-                                          });*/
+                                          });
                                   })
                                   .catch(error => {
-                                      console.log(error.response)
-                                  });
-
-                         }
-                         if(_this.state.tipo_insumo === "Almuerzo") {
-                             axios.post('http://localhost:4000/api/coffebreak', {
-                                 fecha_entrega: fechaactual,
-                                 estudiante: nombre,
-                                 coffe: "1",
-                                 insumo: "",
-                                 almuerzo: "1"
-                             })
-                                 .then(response => {
-                                     console.log(response);
-                                 })
-                                 .catch(error => {
-                                     console.log(error.response)
-                                 });
-                         }
-                         if(_this.state.tipo_insumo === "Insumos") {
+                                      console.log(error)
+                                  })
+                          }
+                          if(_this.state.tipo_insumo === "Almuerzo") {
                              axios.post('http://localhost:4000/api/coffebreak', {
                                  fecha_entrega: fechaactual,
                                  estudiante: nombre,
@@ -131,6 +175,69 @@ class registrocoffe extends Component {
                                  .catch(error => {
                                      console.log(error.response)
                                  });
+                             axios.get('http://localhost:4000/api/productos')
+                                 .then(response => {
+                                     const arreglo = response.data.filter(d => d.id === _this.state.id_insumo);
+                                     axios.put(`http://localhost:4000/api/productos/${id}`, {
+                                         codigo: arreglo[0].codigo,
+                                         nombre: arreglo[0].nombre,
+                                         descripcion: arreglo[0].descripcion,
+                                         cantidad: cantidad,
+                                         encargado: arreglo[0].encargado,
+                                         ubicacion: arreglo[0].ubicacion,
+                                         estado: arreglo[0].estado,
+                                         tipo: arreglo[0].tipo
+                                     })
+                                         .then(response => {
+                                             console.log(response);
+                                             alert("Producto Entregado Con Exito");
+                                         })
+                                         .catch(error => {
+                                             console.log(error.response)
+                                         });
+                                 })
+                                 .catch(error => {
+                                     console.log(error)
+                                 })
+                         }
+                          if(_this.state.tipo_insumo === "Insumos") {
+                             axios.post('http://localhost:4000/api/coffebreak', {
+                                 fecha_entrega: fechaactual,
+                                 estudiante: nombre,
+                                 coffe: "",
+                                 insumo: "",
+                                 almuerzo: "1"
+                             })
+                                 .then(response => {
+                                     console.log(response);
+                                 })
+                                 .catch(error => {
+                                     console.log(error.response)
+                                 });
+                             axios.get('http://localhost:4000/api/productos')
+                                 .then(response => {
+                                     const arreglo = response.data.filter(d => d.id === _this.state.id_insumo);
+                                     axios.put(`http://localhost:4000/api/productos/${id}`, {
+                                         codigo: arreglo[0].codigo,
+                                         nombre: arreglo[0].nombre,
+                                         descripcion: arreglo[0].descripcion,
+                                         cantidad: cantidad,
+                                         encargado: arreglo[0].encargado,
+                                         ubicacion: arreglo[0].ubicacion,
+                                         estado: arreglo[0].estado,
+                                         tipo: arreglo[0].tipo
+                                     })
+                                         .then(response => {
+                                             console.log(response);
+                                             alert("Producto Entregado Con Exito");
+                                         })
+                                         .catch(error => {
+                                             console.log(error.response)
+                                         });
+                                 })
+                                 .catch(error => {
+                                     console.log(error)
+                                 })
                          }
                      }
                 })

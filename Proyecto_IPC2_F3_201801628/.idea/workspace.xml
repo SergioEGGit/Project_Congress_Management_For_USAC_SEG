@@ -5,41 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e784a9b0-6102-46ed-9fad-1a4ca0e0f080" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Documentacion/Actividades GestiÃ³n.dia.autosave" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Documentacion/Actividades Gestión.dia" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Documentacion/Actividades Gestión.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Documentacion/Actividades Ingreso.dia" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Documentacion/Actividades Ingreso.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Documentacion/Actividades Noticias.dia" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Documentacion/Actividades Noticias.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Documentacion/Actividades Reportes.dia" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Documentacion/Actividades Reportes.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Documentacion/Casos De Usos  Expandidos.dia" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Documentacion/Casos De Usos  Expandidos.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Documentacion/Casos De Usos De Alto Nivel.dia" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Documentacion/Casos De Usos De Alto Nivel.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Documentacion/Diagrama De Clases.dia" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Documentacion/Diagrama De Clases.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Documentacion/Estados Gestion.dia" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Documentacion/Estados Gestion.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Documentacion/Estados Ingreso.dia" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Documentacion/Estados Ingreso.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Documentacion/Estados Noticias.dia" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Documentacion/Estados Noticias.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Documentacion/Estados Reportes.dia" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Documentacion/Estados Reportes.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Documentacion/Proyecto_IPC2_F2_201801628.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Documentacion/Proyecto_IPC2_F2_201801628.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Documentacion/Secuencias GestiÃ³n.dia.autosave" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Documentacion/Secuencias Gestión.dia" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Documentacion/Secuencias Gestión.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Documentacion/Secuencias Ingreso.dia" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Documentacion/Secuencias Ingreso.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Documentacion/Secuencias Noticias.dia" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Documentacion/Secuencias Noticias.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Documentacion/Secuencias Reportes.dia" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Documentacion/Secuencias Reportes.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plantillas Carga Masiva/productos.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Plantillas Carga Masiva/productos.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/navbar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/registroscoffe.js" beforeDir="false" afterPath="$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/registroscoffe.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/DB/coffebreak.json" beforeDir="false" afterPath="$PROJECT_DIR$/Server/DB/coffebreak.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/DB/mensajes.json" beforeDir="false" afterPath="$PROJECT_DIR$/Server/DB/mensajes.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/DB/productos.json" beforeDir="false" afterPath="$PROJECT_DIR$/Server/DB/productos.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/DB/variables.json" beforeDir="false" afterPath="$PROJECT_DIR$/Server/DB/variables.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -58,42 +31,24 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/registroscoffe.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2046">
-              <caret line="97" column="47" selection-start-line="97" selection-start-column="47" selection-end-line="97" selection-end-column="47" />
+            <state relative-caret-position="-352">
+              <caret line="77" column="48" selection-start-line="77" selection-start-column="48" selection-end-line="77" selection-end-column="48" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
+                <element signature="e#4314#5009#0" />
+                <element signature="e#5077#5771#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Server/DB/coffebreak.json">
+        <entry file="file://$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/cargamasiva.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/productosges.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2002">
-              <caret line="104" column="8" selection-start-line="104" selection-start-column="8" selection-end-line="119" selection-end-column="15" />
+            <state>
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
-                <element signature="n#!!block;n#clearData#0;n#gestionarus#0" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/registrocoffe.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -125,7 +80,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/comentar.js" />
         <option value="$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/productos.css" />
         <option value="$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/productos.js" />
         <option value="$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/productosges.js" />
@@ -151,14 +105,12 @@
         <option value="$PROJECT_DIR$/Server/DB/dashboard.css" />
         <option value="$PROJECT_DIR$/Server/DB/dashboard.json" />
         <option value="$PROJECT_DIR$/Server/DB/variables.json" />
-        <option value="$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/navbar.js" />
         <option value="$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/login.js" />
         <option value="$PROJECT_DIR$/Server/DB/coffebreak.css" />
         <option value="$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/dashboard.js" />
         <option value="$PROJECT_DIR$/Server/src/index.js" />
         <option value="$PROJECT_DIR$/Server/DB/productos.json" />
         <option value="$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/registrocoffe.css" />
-        <option value="$PROJECT_DIR$/Server/DB/coffebreak.json" />
         <option value="$PROJECT_DIR$/Server/src/routes/actividades.js" />
         <option value="$PROJECT_DIR$/Server/src/routes/asignacionactividades.js" />
         <option value="$PROJECT_DIR$/Server/src/routes/asignacioncurso.js" />
@@ -175,7 +127,10 @@
         <option value="$PROJECT_DIR$/Server/src/routes/usuarios.js" />
         <option value="$PROJECT_DIR$/Server/src/routes/variables.js" />
         <option value="$PROJECT_DIR$/Server/src/routes/variablesglobales.js" />
+        <option value="$PROJECT_DIR$/Server/DB/coffebreak.json" />
         <option value="$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/registroscoffe.js" />
+        <option value="$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/navbar.js" />
+        <option value="$PROJECT_DIR$/Server/DB/mensajes.json" />
       </list>
     </option>
   </component>
@@ -210,6 +165,27 @@
               <item name="Proyecto_IPC2_F3_201801628" type="b2602c69:ProjectViewProjectNode" />
               <item name="Proyecto_IPC2_F3_201801628" type="462c0819:PsiDirectoryNode" />
               <item name="Aplicacion" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Proyecto_IPC2_F3_201801628" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Proyecto_IPC2_F3_201801628" type="462c0819:PsiDirectoryNode" />
+              <item name="Aplicacion" type="462c0819:PsiDirectoryNode" />
+              <item name="segusaccg" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Proyecto_IPC2_F3_201801628" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Proyecto_IPC2_F3_201801628" type="462c0819:PsiDirectoryNode" />
+              <item name="Aplicacion" type="462c0819:PsiDirectoryNode" />
+              <item name="segusaccg" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Proyecto_IPC2_F3_201801628" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Proyecto_IPC2_F3_201801628" type="462c0819:PsiDirectoryNode" />
+              <item name="Aplicacion" type="462c0819:PsiDirectoryNode" />
+              <item name="segusaccg" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Componentes" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Proyecto_IPC2_F3_201801628" type="b2602c69:ProjectViewProjectNode" />
@@ -292,12 +268,12 @@
       <workItem from="1578145466995" duration="27536000" />
       <workItem from="1578234607605" duration="14130000" />
       <workItem from="1578259268356" duration="14773000" />
-      <workItem from="1578282905929" duration="1339000" />
+      <workItem from="1578282905929" duration="3561000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="503367000" />
+    <option name="totallyTimeSpent" value="505589000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -404,31 +380,6 @@
     </option>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/reportes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-432">
-          <caret line="399" column="52" lean-forward="true" selection-start-line="399" selection-start-column="52" selection-end-line="399" selection-end-column="52" />
-          <folding>
-            <element signature="e#1575#3150#0" />
-            <element signature="e#3202#4083#0" />
-            <element signature="e#4124#5672#0" />
-            <element signature="e#5712#7256#0" />
-            <element signature="e#7301#11796#0" />
-            <element signature="e#11845#18995#0" />
-            <element signature="e#19048#23377#0" />
-            <element signature="n#!!block;n#tablaclick#0;n#reportes#0" />
-            <element signature="n#!!block;n#tablaclick2#0;n#reportes#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Aplicacion/segusaccg/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/home.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="792">
@@ -514,13 +465,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="523" selection-start-column="523" selection-end-column="523" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/navbar.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="44" column="41" selection-start-line="44" selection-start-column="41" selection-end-line="44" selection-end-column="41" />
         </state>
       </provider>
     </entry>
@@ -736,16 +680,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/registroscoffe.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2046">
-          <caret line="97" column="47" selection-start-line="97" selection-start-column="47" selection-end-line="97" selection-end-column="47" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/productosges.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2002">
@@ -773,8 +707,46 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Server/DB/coffebreak.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+        <state>
+          <caret column="204" lean-forward="true" selection-start-column="204" selection-end-column="204" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/navbar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3793">
+          <caret line="123" column="31" lean-forward="true" selection-start-line="123" selection-start-column="31" selection-end-line="123" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Server/DB/mensajes.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/registroscoffe.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-352">
+          <caret line="77" column="48" selection-start-line="77" selection-start-column="48" selection-end-line="77" selection-end-column="48" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+            <element signature="e#4314#5009#0" />
+            <element signature="e#5077#5771#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Aplicacion/segusaccg/src/Componentes/cargamasiva.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

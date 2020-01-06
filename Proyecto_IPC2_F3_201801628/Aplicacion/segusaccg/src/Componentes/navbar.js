@@ -122,7 +122,8 @@ class navbar extends Component {
             P_Denuncias: true,
             P_Puntuacion: true,
             P_ControlAsi: true,
-            P_Dashboard: true
+            P_Dashboard: true,
+            P_CoffeBreak: true
         })
             .then(response => {
                 console.log(response)
