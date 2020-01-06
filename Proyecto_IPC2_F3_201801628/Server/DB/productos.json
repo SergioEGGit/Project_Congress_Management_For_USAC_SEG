@@ -1,0 +1,13 @@
+[
+  {
+    "id": "1",
+    "codigo": "502",
+    "nombre": "Vasos",
+    "descripcion": "Vasos De Vidrio",
+    "cantidad": "50",
+    "encargado": "Julio Guitierrez",
+    "ubicacion": "Bodega",
+    "estado": "si",
+    "tipo": "Coffe Break"
+  }
+]
