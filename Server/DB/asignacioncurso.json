@@ -1,0 +1,23 @@
+[
+  {
+    "id": "1",
+    "estudiante": "juan",
+    "curso": "curso",
+    "secciona": "B",
+    "titulara": "titular"
+  },
+  {
+    "id": "2",
+    "estudiante": "Estu",
+    "curso": "IPC",
+    "secciona": "B",
+    "titular": "Cate"
+  },
+  {
+  "id": "3",
+  "estudiante": "Estu2",
+  "curso": "IPC",
+  "secciona": "B",
+  "titular": "Cate"
+}
+]

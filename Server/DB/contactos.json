@@ -1,0 +1,32 @@
+[
+  {
+    "id": "1",
+    "nombre": "Coca",
+    "telefono": "45235678",
+    "email": "Coca.cola.pepsi",
+    "direccion": "15 ave.",
+    "rol": "Patrocinador",
+    "oportunidades": "Campaña Publicitaria",
+    "encargado": "Cola"
+  },
+  {
+  "id": "2",
+  "nombre": "Cola",
+  "telefono": "80",
+  "email": "Ameri",
+  "direccion": "15 ave.",
+  "rol": "Patrocinador",
+  "oportunidades": "Campaña Publicitaria",
+  "encargado": "Admin"
+ },
+  {
+    "id": "3",
+    "nombre": "Pepsi",
+    "telefono": "10",
+    "email": "Zozazola",
+    "direccion": "15 ave.",
+    "rol": "Patrocinador",
+    "oportunidades": "Campaña Publicitaria",
+    "encargado": ""
+  }
+]
