@@ -1,0 +1,82 @@
+#input{
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+    font-size: 16px;
+    font-style: oblique;
+    color: #1355CA;
+    text-decoration: overline;
+    position: absolute;
+    left: 580px;
+    top: 150px;
+    width: 189px;
+}
+
+#tipo1212{
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+    font-size: 16px;
+    font-style: oblique;
+    color: #1355CA;
+    text-decoration: overline;
+    position: absolute;
+    left: 1043px;
+    top: 193px;
+    width: 150px;
+}
+
+#order1212{
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+    font-size: 16px;
+    font-style: oblique;
+    color: #1355CA;
+    text-decoration: overline;
+    position: absolute;
+    left: 1043px;
+    top: 250px;
+    width: 150px;
+}
+
+
+#tablep2323 {
+    position: absolute;
+    left: 320px;
+    top: 200px;
+    width: 656px;
+    height: 534px;
+}
+
+#tablep363636 {
+    position: absolute;
+    left: 320px;
+    top: 500px;
+    width: 656px;
+    height: 534px;
+}
+
+
+#as12121212 {
+    position: absolute;
+    border-radius: 20px;
+    color: aliceblue;
+    background: #970033;
+    font-size: 20px;
+    left: 1080px;
+    top: 300px;
+    border: hidden;
+    width: 100px;
+    height: 37px;
+}
+
+#as21212121 {
+    position: absolute;
+    border-radius: 20px;
+    color: aliceblue;
+    background: #970033;
+    font-size: 20px;
+    left: 1000px;
+    top: 500px;
+    border: hidden;
+    width: 160px;
+    height: 37px;
+}
+
+
+

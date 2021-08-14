@@ -1,0 +1,132 @@
+#tablep {
+    position: absolute;
+    left: 477px;
+    top: 126px;
+    width: 656px;
+    height: 534px;
+}
+
+
+#pi2 {
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+    font-size: 30px;
+    font-style: oblique;
+    color: #fff6f8;
+    position: absolute;
+    left: 700px;
+    top: 78px;
+    height: 22px;
+    text-shadow: 0 0 0.2em #0013ff, 0 0 0.2em #0013ff
+}
+
+#intitu {
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+    font-size: 16px;
+    font-style: oblique;
+    color: #1355CA;
+    text-decoration: overline;
+    position: absolute;
+    left: 250px;
+    top: 250px;
+    width: 189px;
+}
+#indesc {
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+    font-size: 16px;
+    font-style: oblique;
+    color: #1355CA;
+    text-decoration: overline;
+    position: absolute;
+    left: 250px;
+    top: 300px;
+    width: 189px;
+    height: 100px;
+}
+#lntitu	{
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+    font-size: 20px;
+    font-style: oblique;
+    color: #130090;
+    position: absolute;
+    left: 100px;
+    top: 250px;
+    height: 22px;
+    text-shadow: 0 0 0.2em #ffc810, 0 0 0.2em #ffc810
+}
+#lndesc	{
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+    font-size: 20px;
+    font-style: oblique;
+    color: #130090;
+    position: absolute;
+    left: 100px;
+    top: 300px;
+    height: 22px;
+    text-shadow: 0 0 0.2em #ffc810, 0 0 0.2em #ffc810
+}
+#lntitulo	{
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+    font-size: 30px;
+    font-style: oblique;
+    color: #fff6f8;
+    position: absolute;
+    left: 150px;
+    top: 180px;
+    height: 22px;
+    text-shadow: 0 0 0.2em #0013ff, 0 0 0.2em #0013ff
+}
+#labelti	{
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+    font-size: 20px;
+    font-style: oblique;
+    color: #130090;
+    position: absolute;
+    left: 547px;
+    top: 487px;
+    height: 22px;
+    text-shadow: 0 0 0.2em #ffc810, 0 0 0.2em #ffc810
+}
+
+#cont {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    height: 572px;
+    width: 2505px;
+}
+#nlogon {
+    position: absolute;
+    left: 250px;
+    top: 100px;
+    border-radius: 70%;
+    width: 76px;
+    height: 67px;
+}
+#bbr1 {
+    position: absolute;
+    border-radius: 20px;
+    color: aliceblue;
+    background: #970033;
+    font-size: 20px;
+    left: 120px;
+    top: 420px;
+    border: hidden;
+    width: 121px;
+    height: 37px;
+}
+#bbg1 {
+    position: absolute;
+    border-radius: 20px;
+    color: aliceblue;
+    background: #970033;
+    font-size: 20px;
+    left: 270px;
+    top: 420px;
+    border: hidden;
+    width: 121px;
+    height: 37px;
+}
+
+body {
+    background-image: url("../Assets/fondo.jpg");
+}
