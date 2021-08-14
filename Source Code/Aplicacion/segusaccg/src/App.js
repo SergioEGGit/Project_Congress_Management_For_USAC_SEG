@@ -3,7 +3,6 @@ import Home from './Componentes/home';
 import './App.css';
 
 
-
 function App() {
 
 
